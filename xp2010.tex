@@ -1,0 +1,283 @@
+\documentclass[lnbip]{svmultln}
+
+\usepackage{makeidx}
+\usepackage{graphicx,url}
+
+\sloppy
+
+\begin{document}
+
+\title{Open Source and Agile Methods:\\Two worlds closer than it
+  seems}
+
+\titlerunning{Open Source and Agile Methods}
+
+\author{Hugo Corbucci\inst{1} and Alfredo Goldman\inst{1}}
+
+\authorrunning{Hugo Corbucci et al.}
+
+\tocauthor{Hugo Corbucci, Alfredo Goldman}
+
+\institute{Instituto de Matem\'{a}tica e Estat\'{i}stica (IME)\\
+  Universidade de S\~{a}o Paulo (USP) - Brazil\\
+  \email{corbucci@ime.usp.br} and \email{gold@ime.usp.br} }
+ 
+\maketitle
+
+\begin{abstract}
+  Agile methods and open source software communities have different
+  approaches to produce high quality and successful software. However
+  agile methodologies are not very difused in open source communities
+  nor the members of those communities follow many agile
+  practices.
+
+  \keywords{agile software development, open source software,
+    distributed agile, }
+\end{abstract}
+
+\section{Introduction}
+
+Typical Open Source (OS) projects (the scope of of OS project will be
+narrowed according to Section \ref{subsec:os-scope}) usually receive
+the collaboration of many geographically distant people
+\cite{report:dempsey1999}. At first glance, this argument could
+indicate that such projects are not candidates for the use of agile
+methods since some basic values seem to be missing. In this case, the
+distance and diversity separating developers deteriorates
+communication, a very important value within agile methods. However,
+it is common to identify some principles presented by the agile
+manifesto \cite{url:agilemanifesto} on many open source software
+projects \cite{gabriel2005}. Being ready for changes, working with continuous feedback,
+delivering real features, respecting collaborators and users and
+facing challenges are expected attitudes from agile developers
+naturally found in the Free and Open Source Software (FOSS)
+communities.
+
+During a workshop \cite{conference:oopsla2007} about ``No Silver
+Bullets'' \cite{brooks1987} held at OOPSLA 2007, agile methods and OS
+software development were mentioned as two failed silver bullets
+having both brought great benefit to the software community. During
+the same workshop the question was raised whether the use of several
+failed silver bullets simultaneously could not raise production levels
+by an order of magnitude. This is an attempt to suggest one of those
+merges to partially tackle software development problems.
+
+% Write the agenda
+
+\section{Scopes}
+\label{sec:scope}
+
+In order to start talking about OS and agile methods, it is necessary
+to first define which part of each will be analysed in this
+work. Agile methods in the scope of ths work are described in Section
+\ref{subsec:agile-scope} while the OS projects studied in this work
+are described in Section \ref{subsec:os-scope}.
+
+\subsection{Agile methods scope}
+\label{subsec:agile-scope}
+
+Thoughout this work, any software engineering method that follows the
+principles of the agile manifesto \cite{url:agilemanifesto} will be
+considered and treated as an agile method. Focus will be given on the
+most known methods, such as eXtreme Programming (XP) \cite{XP2002},
+Scrum \cite{schwaber2004} and the Crystal family
+\cite{cockburn2002}. Closely related ideas will also be mentioned from
+the wider Lean philosophy \cite{ohno1998} and its application to
+software development \cite{poppendieck2005}.
+
+\subsection{Open source scope}
+\label{subsec:os-scope}
+
+The terms ``Open source software'' and ``Free software'' will be
+considered the same in this work although they have some differences
+in their specific contexts \cite[Ch. 1, Free Versus Open
+source]{fogel2005}. Projects will be called to be open source (or
+free) if their source code is available and modifiable by anyone with
+the required technical knowledge, without prior consent from the
+original author and without any charge.
+
+OS projects essentially controlled by a single company will not be
+addressed in this work. The reason for such reduction of scope is that
+projects controlled by companies, whether they have a public source
+code and accept external collaboration or not, can be run with any
+software engineering method established in the company since it can be
+enforced to the employees of this company. Some methods will work
+better to attract external contributions but the company still
+controls its own team and can maintain the software without external
+collaboration.
+
+Considering this scope, it is important to characterize the people
+involved in such kind of projects. In 2002, the FLOSS Project
+\cite{url:flossproject} published a report about a survey they
+conducted regarding FOSS contributors. Their collected data
+\cite{url:flossdata} shows that 78.77\% of the contributors are
+employed or self-employed (question 42) and that only 50.82\% of the
+OS community are software developers while 24.76\% do not earn their
+main income with software development (question 10).  In addition to
+those results, the survey presents the fact that 78.78\% of the
+collaborators consider their OS tasks more joyful (question 22.2) than
+their regular activities and 42.3\% also consider them better
+organized (question 22.4). As an outcome of those results, we could
+say that OS contributors perceive their activities both pleasurable
+and effective.
+
+% Rever essas porcentagem para trocar por algo mais interessante
+
+Another survey \cite{reis2003} points out that 74\% of open source
+projects have teams with up to 5 people and 62\% of the contributors
+work with each other over the Internet and never met physically.  It
+is therefore critical for those projects to have an adequate software
+process that fits those characteristics and is not a burden on the
+volunteer work.
+
+% Introdução (bla bla)
+% motivação (ligações de MA com OS)
+% Pesquisas (objetivo e conteúdo)
+% Resultados
+% Propostas e conclusões
+
+\section{How closely related are Open source and Agile?}
+\label{sec:relation}
+
+In Martin Fowler's first version of ``The New Methodology''
+\cite{url:fowler2000orig}, he included open source software
+development as part of the new methodology of software development
+along with now well known Agile methods. He decided to remove it from
+the final article because Eric Raymond's description of the
+development process from ``The Cathedral and the Bazaar''
+\cite{raymond1999} is not very well define and is closer to an
+experience report than to a description of a process. However,
+Raymond's text presents several actions that could be related to the
+agile manifesto \cite{url:agilemanifesto}. 
+
+OS communities are created are composed of individuals interacting between each other 
+
+\section{Surveys}
+\label{sec:surveys}
+
+\subsection{To the FLOSS community}
+\label{subsec:floss-survey}
+
+
+\subsection{To the Agile community}
+\label{subsec:agile-survey}
+
+\section{Survey results}
+\label{sec:results}
+
+\subsection{Individual results from the FLOSS community}
+\label{subsec:floss-results}
+
+\subsection{Individual results from the Agile community}
+\label{subsec:agile-results}
+
+\subsection{Crossed results}
+\label{subsec:crossed-results}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+
+\subsubsection*{Acknowledgments.}
+
+This work was supported by the QualiPSo project \cite{url:qualipso}.
+
+\begin{thebibliography}{5}
+
+\bibitem{report:dempsey1999} Bert J Dempsey and Debra Weiss and Paul
+  Jones and Jane Greenberg: A quantitative profile of a community of
+  open source Linux developers (1999)
+
+\bibitem{url:agilemanifesto} Kent Beck and Alistair Cockburn and Ward
+  Cunningham and Martin Fowler and Ken Schwaber and al.: Manifesto for
+  Agile Software Development, http://agilemanifesto.org (2001)
+
+\bibitem{conference:oopsla2007} Dennis Mancl and Steven Fraser and
+  William Opdyke: No silver bullet: a retrospective on the essence and
+  accidents of software engineering (2007)
+
+\bibitem{brooks1987} Frederick P. Brooks, Jr.: No Silver Bullet:
+  Essence and Accidents of Software (1987)
+
+\bibitem{gabriel2005} Ron Goldman and Richard P. Gabriel: Innovation
+  Happens Elsewhere: Open Source as Business Strategy (2005)
+
+\bibitem{XP2002} Kent Beck and Cynthia Andres: Extreme Programming
+  Explained: Embrace Change, 2nd Edition (2004)
+
+\bibitem{schwaber2004} Ken Schwaber: Agile Project Management with
+  Scrum (2004)
+
+\bibitem{cockburn2002} Alistair Cockburn: Agile Software Development
+  (2002)
+
+\bibitem{ohno1998} Taiichi Ohno: Toyota Production System: Beyond
+  Large-Scale Production (1998)
+
+\bibitem{poppendieck2005} Mary Poppendieck and Tom Poppendieck:
+  Introduction to Lean Software Development (2005)
+
+\bibitem{url:fowler2000orig} Martin Fowler: The New Methodology,
+  http://martinfowler.com/articles/newMethodologyOriginal.html
+
+\bibitem{fogel2005} Karl Fogel: Producing Open Source Software (2005)
+
+\bibitem{url:flossproject} International Institute of Infonomics -
+  University of Maastricht: Free/Libre/Open Source Software: Survey
+  and Study - Report, http://www.flossproject.org/report/
+
+\bibitem{url:flossdata} International Institute of Infonomics -
+  University of Maastricht: Free/Libre/Open Source Software: Survey
+  and Study - Report, http://www.flossproject.org/floss1/stats.html
+
+\bibitem{reis2003} Christian Robottom Reis: Caracteriza\c{c}\~{a}o de
+  um Processo de Software para Projetos de Software Livre (2003)
+
+\bibitem{raymond1999} Eric S. Raymond: The Cathedral \& the Bazaar:
+  Musings on {Linux} and Open Source by an Accidental Revolutionary
+  (1999)
+
+\bibitem{oram2007} Andy Oram: Why Do People Write Free Documentation?
+  Results of a Survey (2007)
+
+\bibitem{riehle2007} Dirk Riehle: The Economic Motivation of Open
+  Source Software: Stakeholder Perspectives (2007)
+
+\bibitem{sutherland2007} Jeff Sutherland and Anton Viktorov and Jack
+  Blount and Nikolai Puntikov: Distributed Scrum: Agile Project
+  Management with Outsourced Development Teams (2007)
+
+\bibitem{maurer2002} Frank Maurer: Supporting Distributed Extreme
+  Programming (2002)
+
+\bibitem{url:beck2008} Kent Beck: Tools for Agility,
+  http://www.microsoft.com/downloads/details.aspx?FamilyID=ae7e07e8-0872-47c4-b1e7-2c1de7facf96
+  (2008)
+
+\bibitem{nagappan2003} Nachiappan Nagappan and Prashant Baheti and
+  Laurie Williams and Edward Gehringer and David Stotts: Virtual
+  Collaboration through Distributed Pair Programming (2003)
+
+\bibitem{url:north2006} Dan North: Behaviour Driven Development,
+  http://dannorth.net/introducing-bdd
+
+\bibitem{sato2007} Danilo Sato and Alfredo Goldman and Fabio Kon:
+  Tracking the Evolution of Object-Oriented Quality Metrics on Agile
+  Projects (2007)
+
+\bibitem{surowiecki2004} J. Surowiecki: The Wisdom of Crowds: Why the
+  many are smarter than the few and how collective wisdom shapes
+  business, economies, societies, and nations (2004)
+
+\bibitem{tapscott2006} Don Tapscott and Anthony D. Williams:
+  Wikinomics: How Mass Collaboration Changes Everything (2006)
+
+\bibitem{benkler2006} Yochai Benkler: The Wealth of Networks: How
+  Social Production Transforms Markets and Freedom (2006)
+
+\bibitem{url:qualipso} Qualipso | Trust and Quality in Open Source
+  systems, http://www.qualipso.org/
+
+\end{thebibliography}
+
+\end{document}

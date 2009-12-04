@@ -1,0 +1,65 @@
+*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=
+
+First reviewer's review:
+
+         >>> Summary of the submission <<<
+
+Authors lay out some evidence connecting agile methods and open source methods
+together. They propose that this is a research arena, which should be targeted
+and the authors are planning to conduct surveys on the topic area.
+
+         >>> Evaluation <<<
+
+The short paper is addressing a timely topic. There are some necessary
+improvements that you should for the next version.
+1. You should have your paper checked by a native English speaker for improving
+the readibility of your paper
+2. You should identify few more references for your work as open source and
+agil e methods have been discussed a few times. I am sorry for not being able
+to pinpoint these references but I am convinced you are able to find them.
+3. You have taken agile manifesto and values as your analytical framework. I
+would have rather looked at papers written by Fitzgerald et al on open source
+and use some more elaborate framework for your initial study.
+
+*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*
+
+Second reviewer's review:
+
+         >>> Evaluation <<<
+
+There is a lot that the agile and open source communities can learn from each
+other. This paper hints at a few of the important opportunity areas areas but
+does not lay them out in a clear and compelling way. This presentation needs to
+be more systematic and detailed. It is not clear from the content which
+community the authors are members of, if either as most of the content could be
+based on a reading the provided references. As you state in the conclusion,
+this is preliminary work. It is not sufficient yet to warrant publication but
+after the planned workshops it ought to take on sufficient substance to be well
+worth inclusion next year.
+
+*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*
+
+Third reviewer's review:
+
+         >>> Summary of the submission <<<
+
+The paper present a comparison between agile methods and open source
+development. It discusses the principles of the agile manifesto in the opne
+source development. It proposes missing points in agile methos and in open
+souce development
+
+         >>> Evaluation <<<
+
+There is no novelty in the paper. No case study neither a report is presented.
+The comparison is done on well known facts.
+Some claims are strong like "Open Source projects usually receive the
+collaboration of many deographically distant people who do not share any
+organizational structure. At first this argument could indicate that such
+projects are not candidates for ht euse of agile methods since some basic
+values seems to be damnaged ..."
+
+I would rather say that the successful open source project have a solid core
+team well organized that manages the distributed development (think of
+OpenOffice.org).
+
+*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*=--=*
