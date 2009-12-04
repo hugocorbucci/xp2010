@@ -1,4 +1,4 @@
-TEX_NAME=xp2009
+TEX_NAME=xp2010
 #BIB_NAME=biblio
 
 TEX_FILE=$(TEX_NAME).tex
@@ -8,8 +8,8 @@ all: view_pdf
 
 push:
 	@echo 'Pushing commits to repository'
-	git pull origin xp2009
-	git push origin xp2009
+	git pull origin master
+	git push origin master
 
 commit: generate_pdf
 	@echo 'Commiting to git repository'
