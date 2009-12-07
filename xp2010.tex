@@ -47,31 +47,34 @@ distance and diversity separating developers deteriorates
 communication, a very important value within agile methods. However,
 it is common to identify some principles presented by the agile
 manifesto \cite{url:agilemanifesto} on many open source software
-projects \cite{gabriel2005}. Being ready for changes, working with continuous feedback,
+projects. Being ready for changes, working with continuous feedback,
 delivering real features, respecting collaborators and users and
 facing challenges are expected attitudes from agile developers
 naturally found in the Free and Open Source Software (FOSS)
-communities.
+communities\cite{gabriel2005}.
 
-During a workshop \cite{conference:oopsla2007} about ``No Silver
-Bullets'' \cite{brooks1987} held at OOPSLA 2007, agile methods and OS
-software development were mentioned as two failed silver bullets
-having both brought great benefit to the software community. During
-the same workshop the question was raised whether the use of several
-failed silver bullets simultaneously could not raise production levels
-by an order of magnitude. This is an attempt to suggest one of those
-merges to partially tackle software development problems.
+During a workshop \cite{conference:oopsla2007} held at OOPSLA 2007
+cellebrating 20 years from the publication of ``No Silver Bullets''
+\cite{brooks1987}, agile methods and OS software development were
+mentioned as two failed silver bullets having both brought great
+benefit to the software community. During the same workshop the
+question was raised whether the use of several failed silver bullets
+simultaneously could not raise production levels by an order of
+magnitude. This work is an attempt to suggest one of those merges to
+partially tackle software development problems.
 
 % Write the agenda
 
 \section{Scopes}
 \label{sec:scope}
 
-In order to start talking about OS and agile methods, it is necessary
-to first define which part of each will be analysed in this
-work. Agile methods in the scope of ths work are described in Section
-\ref{subsec:agile-scope} while the OS projects studied in this work
-are described in Section \ref{subsec:os-scope}.
+The FOSS environment as well as the agile both comprehend such a wide
+variety of projects, people and contexts that it is very hard to cover
+all of them. Therefore it is necessary to first define which part of
+each community will be analysed in this work. Agile methods in the
+scope of this work are described in Section \ref{subsec:agile-scope}
+while the OS projects discussed are described in Section
+\ref{subsec:os-scope}.
 
 \subsection{Agile methods scope}
 \label{subsec:agile-scope}
@@ -88,7 +91,7 @@ software development \cite{poppendieck2005}.
 \subsection{Open source scope}
 \label{subsec:os-scope}
 
-The terms ``Open source software'' and ``Free software'' will be
+The terms ``open source software'' and ``free software'' will be
 considered the same in this work although they have some differences
 in their specific contexts \cite[Ch. 1, Free Versus Open
 source]{fogel2005}. Projects will be called to be open source (or
@@ -96,8 +99,8 @@ free) if their source code is available and modifiable by anyone with
 the required technical knowledge, without prior consent from the
 original author and without any charge.
 
-OS projects essentially controlled by a single company will not be
-addressed in this work. The reason for such reduction of scope is that
+OS projects essentially controlled by a single company fall out of the
+scope of thise work. The reason for such reduction of scope is that
 projects controlled by companies, whether they have a public source
 code and accept external collaboration or not, can be run with any
 software engineering method established in the company since it can be
@@ -125,16 +128,11 @@ and effective.
 
 Another survey \cite{reis2003} points out that 74\% of open source
 projects have teams with up to 5 people and 62\% of the contributors
-work with each other over the Internet and never met physically.  It
-is therefore critical for those projects to have an adequate software
-process that fits those characteristics and is not a burden on the
-volunteer work.
-
-% Introdução (bla bla)
-% motivação (ligações de MA com OS)
-% Pesquisas (objetivo e conteúdo)
-% Resultados
-% Propostas e conclusões
+work with each other over the Internet and never met
+physically. Considering such characterization of the FOSS community,
+the next section presents what is the relation between such
+development environment with the ideas and guidelines of agile
+methodologies.
 
 \section{How closely related are Open source and Agile?}
 \label{sec:relation}
@@ -143,20 +141,106 @@ In Martin Fowler's first version of ``The New Methodology''
 \cite{url:fowler2000orig}, he included open source software
 development as part of the new methodology of software development
 along with now well known Agile methods. He decided to remove it from
-the final article because Eric Raymond's description of the
-development process from ``The Cathedral and the Bazaar''
-\cite{raymond1999} is not very well define and is closer to an
-experience report than to a description of a process. However,
-Raymond's text presents several actions that could be related to the
-agile manifesto \cite{url:agilemanifesto}. 
+the final article because the FOSS environment is so big and spread
+that any attempt to characterize the development process would
+undoutebly fail on a given environment. Aftewards, in 2002, Warsta
+\cite{Warsta2002} published a review about agile software development
+methods including and discussing OSS as an agile method.
 
-OS communities are created are composed of individuals interacting between each other 
+However, he stresses that FOSS development is not a precise method and
+evolves differently for each project. Indeed, Eric Raymond's
+description of the development process from ``The Cathedral and the
+Bazaar'' \cite{raymond1999} is closer to an experience report than to
+the description of a process with guidelines and
+practices. Nevertheless, Raymond's text presents several actions that
+could be related to the agile manifesto \cite{url:agilemanifesto} and
+are common in other FOSS projects.
+
+FOSS communities are, by definition, a group of people gathered around
+a FOSS project. A working and useful software project attracts
+individuals to collaborate to evolve the
+software\cite{crowston2002}. It is the people's interactions that will
+define the development process, tools and even the goals of the
+software. FOSS projects that do not evolve to fit the needs of its
+community are abandoned in a highly competitive environment where the
+best (in certain criteria) gains adopters in a thin line between
+success and oblivion.
+
+From such aspects, FOSS project share a lot in common with the values
+presented by agile methods. The practices are also quite similar. Eric
+Raymond quotes Linus Torvalds about two specific development policy
+for the Linux Kernel.
+\begin{enumerate}
+\item[7.] Release early. Release often. And listen to your customers.
+\item[8.] Given a large enough beta-tester and co-developer bse,
+  almost every problem will be characterized quickly and the fix
+  obvious to someone.
+\end{enumerate}
+
+The first policy hints for an iterative and short development process
+with frequent feedback input. The second one points to a large amount
+of test done frequently. Those ideas are core principles for agile
+methods and largely applied to most sucessful FOSS projects.
+
+We can, therefore, state that the FOSS community have a culture that
+is similar to the one of the agile community. Given that there is such
+proximity between agile methods and FOSS development, it must not be
+forgotten that the environment in which each solution outstand are
+quite different.
+
+Open source software is stronger when it comes to products that
+``scratch a developer's itch'' \cite{fitzgeral2000}, i.e. a product in
+which the own developer can be the user. Such product evolve across
+the Internet gathering volunteers interested in such development by
+releasing versions of the software frequently.
+
+Agile methods come from industry consultants with focus on business
+problems and customer satisfaction through frequent high quality
+releases. To achieve such goal, an ideal agile team needs motivated
+competent people closely gathered with freedom to improve their
+environment and process to enable what Cockburn calls osmotic
+communication \cite{Cockburn2004}.
+
+The most critical discrepency is the one regarding
+communication. Agile methods stress out that many software development
+problems come from miss communication and the best way to mitigate it
+is to keep people close and in constant conversations. Open source
+software are inherently distributed and frequently run by people that
+only met through the Internet. Could there be a way to unite the
+strenght of both communities and improve development in distributed
+environments with changing requirements?
+
+In order to evaluate this possibility, we decided to elaborate two
+surveys. The next section describes how the surveys were elaborated
+and what information were expected to be collected.
 
 \section{Surveys}
 \label{sec:surveys}
 
+Since the motivation to write was to understand if the agile community
+and the FOSS community could be united, one survey was directed to
+agile practionners while the other was aimed to FOSS contributors.
+Each survey intended to characterize the answering public and was
+available on the Internet and was spread in channels common to the
+desired communities.
+
+The next subsection presents the survey created for the FLOSS
+community while the following one shows the one aimed to the agile
+community.
+
 \subsection{To the FLOSS community}
 \label{subsec:floss-survey}
+
+For both surveys, part of the goal was to identify which part of the
+community answered the question and how representatives they were for
+their community. Therefore, the first set of questions were pretty
+similar between both surveys and inquired the participant about their
+year of birth and country of residence. It was also 
+
+The survey directed to FLOSS contributors was announced via twitter by
+the authors and received the support of
+GitHub\footnote{http://github.com} who asked their users to fill in
+the survey.
 
 
 \subsection{To the Agile community}
@@ -164,6 +248,13 @@ OS communities are created are composed of individuals interacting between each 
 
 \section{Survey results}
 \label{sec:results}
+
+The surveys were ellaborated to be answered by the participants
+through the Internet and used some dynamic contents to minimize the
+amount of answers each participants should provide. Such work was
+performed through Javascript and resulted in a few invalid answers
+since a couple of older browsers could not render the survey
+correctly. 
 
 \subsection{Individual results from the FLOSS community}
 \label{subsec:floss-results}
@@ -236,6 +327,17 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
 \bibitem{raymond1999} Eric S. Raymond: The Cathedral \& the Bazaar:
   Musings on {Linux} and Open Source by an Accidental Revolutionary
   (1999)
+
+\bibitem{crowston2002} Kevin Crowston and Barbara Scozzi: Open source
+  software projects as virtual organisations: competency rallying for
+  software developement (2002)
+
+\bibitem{fitzgerald2000} Joseph Feller and Brian Fitzgerald: A
+  framework analysis of the open source software development paradigm
+  (2000)
+
+\bibitem{cockburn2004} Alistair Cockburn: Crystal Clear: A
+  Human-Powered Methodology for Small Teams (2004)
 
 \bibitem{oram2007} Andy Oram: Why Do People Write Free Documentation?
   Results of a Survey (2007)
