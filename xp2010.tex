@@ -1,11 +1,12 @@
 \documentclass[lnbip]{svmultln}
 
 \usepackage{makeidx}
-\usepackage{graphicx,url}
-
-\sloppy
+\usepackage{graphicx}
+\usepackage{url}
 
 \begin{document}
+
+\mainmatter
 
 \title{Open Source and Agile Methods:\\Two worlds closer than it
   seems}
@@ -322,14 +323,51 @@ from the Agile Alliance but no answer was provided.
 The surveys were ellaborated to be answered by the participants
 through the Internet and used some dynamic contents to minimize the
 amount of answers each participants should provide. Such work was
-performed through Javascript and resulted in a few invalid answers
-since a couple of older browsers could not render the survey
-correctly. 
+performed through Javascript but was not validated against older
+browsers such as Internet Explorer 6 and 7. Trying to answer the
+surveys using those browsers resulted in an invalid answer. This
+unexpected error provided an extra information regarding the browser
+used by each community.
+
+The individual results of each survey provide interesting data by
+themselves and are described in subsections \ref{subsec:floss-results}
+and \ref{subsec:agile-results} for the FLOSS survey and the agile one
+respectively. Subsection \ref{subsec:crossed} presents data crossed
+between the two surveys.
 
 \subsection{Individual results from the FLOSS community}
 \label{subsec:floss-results}
 
-Results were collected between 2009/07/28 and 2009/11/01.
+The results for the FLOSS survey were collected between 2009/07/28 and
+2009/11/01. The survey received 309 entries from which 3 were
+duplicated data (same IP address and time entry) while 4 others were
+invalid answers (caused by Javascript errors). This unexpected data
+shows that aproximately 1\% of people who are connected with FLOSS
+communities use either Internet Explorer 6 or 7.
+
+Out of those 302 valid entries, 122 were answers in which the
+participant never contributed to a FLOSS project but considered
+herself as part of the FLOSS community. So only about 60\% of the
+FLOSS community actually contributes with projects.
+
+\begin{figure}[htb]
+  \begin{minipage}[t]{0.5\linewidth}
+    \includegraphics[scale=0.8]{floss-world.pdf}
+    \caption{Answers by region of the world}
+    \label{fig:floss-world}
+  \end{minipage}
+  \begin{minipage}[t]{0.5\linewidth}
+    \includegraphics[scale=0.8]{floss-income.pdf}
+    \caption{Main income origin}
+    \label{fig:floss-income}
+  \end{minipage}
+\end{figure}
+
+The analysis was performed over the 180 answers left since they
+provided more interesting data. Figure \ref{fig:floss-world}
+represents the distribution of the answers around the globe while
+Figure \ref{fig:floss-income} shows the percentage main income origin
+for the participants.
 
 \subsection{Individual results from the Agile community}
 \label{subsec:agile-results}
