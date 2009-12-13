@@ -32,6 +32,8 @@
   nor the members of those communities follow many agile
   practices.
 
+% TODO Mais abstract
+
   \keywords{agile software development, open source software,
     distributed agile, }
 \end{abstract}
@@ -39,7 +41,7 @@
 \section{Introduction}
 
 Typical Open Source (OS) projects (the scope of of OS project will be
-narrowed according to Section \ref{subsec:os-scope}) usually receive
+narrowed according to Section \ref{sec:scope}) usually receive
 the collaboration of many geographically distant people
 \cite{report:dempsey1999}. At first glance, this argument could
 indicate that such projects are not candidates for the use of agile
@@ -64,7 +66,7 @@ simultaneously could not raise production levels by an order of
 magnitude. This work is an attempt to suggest one of those merges to
 partially tackle software development problems.
 
-% Write the agenda
+% TODO Write the agenda
 
 \section{Scopes}
 \label{sec:scope}
@@ -72,13 +74,8 @@ partially tackle software development problems.
 The FOSS environment as well as the agile both comprehend such a wide
 variety of projects, people and contexts that it is very hard to cover
 all of them. Therefore it is necessary to first define which part of
-each community will be analysed in this work. Agile methods in the
-scope of this work are described in Section \ref{subsec:agile-scope}
-while the OS projects discussed are described in Section
-\ref{subsec:os-scope}.
-
-\subsection{Agile methods scope}
-\label{subsec:agile-scope}
+each community will be analysed in this work.
+\\
 
 Thoughout this work, any software engineering method that follows the
 principles of the agile manifesto \cite{url:agilemanifesto} will be
@@ -88,9 +85,7 @@ Scrum \cite{schwaber2004} and the Crystal family
 \cite{cockburn2002}. Closely related ideas will also be mentioned from
 the wider Lean philosophy \cite{ohno1998} and its application to
 software development \cite{poppendieck2005}.
-
-\subsection{Open source scope}
-\label{subsec:os-scope}
+\\
 
 The terms ``open source software'' and ``free software'' will be
 considered the same in this work although they have some differences
@@ -101,14 +96,11 @@ the required technical knowledge, without prior consent from the
 original author and without any charge.
 
 OS projects essentially controlled by a single company fall out of the
-scope of thise work. The reason for such reduction of scope is that
+scope of this work. The reason for such reduction of scope is that
 projects controlled by companies, whether they have a public source
 code and accept external collaboration or not, can be run with any
 software engineering method established in the company since it can be
-enforced to the employees of this company. Some methods will work
-better to attract external contributions but the company still
-controls its own team and can maintain the software without external
-collaboration.
+enforced to the employees of this company.
 
 Considering this scope, it is important to characterize the people
 involved in such kind of projects. In 2002, the FLOSS Project
@@ -125,15 +117,15 @@ organized (question 22.4). As an outcome of those results, we could
 say that OS contributors perceive their activities both pleasurable
 and effective.
 
-% Rever essas porcentagem para trocar por algo mais interessante
+% TODO Rever essas porcentagem para trocar por algo mais interessante
 
 Another survey \cite{reis2003} points out that 74\% of open source
 projects have teams with up to 5 people and 62\% of the contributors
-work with each other over the Internet and never met
-physically. Considering such characterization of the FOSS community,
-the next section presents what is the relation between such
-development environment with the ideas and guidelines of agile
-methodologies.
+work with each other over the Internet and have never met physically.
+
+Considering such characterization of the FOSS community, the next
+section presents what is the relation between such development
+environment with the ideas and guidelines of agile methodologies.
 
 \section{How closely related are Open source and Agile?}
 \label{sec:relation}
@@ -144,15 +136,15 @@ development as part of the new methodology of software development
 along with now well known Agile methods. He decided to remove it from
 the final article because the FOSS environment is so big and spread
 that any attempt to characterize the development process would
-undoutebly fail on a given environment. Aftewards, in 2002, Warsta
-\cite{warsta2002} published a review about agile software development
-methods including and discussing OSS as an agile method.
+undoutebly fail on a given environment.
 
-However, he stresses that FOSS development is not a precise method and
-evolves differently for each project. Indeed, Eric Raymond's
-description of the development process from ``The Cathedral and the
-Bazaar'' \cite{raymond1999} is closer to an experience report than to
-the description of a process with guidelines and
+Aftewards, in 2002, Warsta \cite{warsta2002} published a review about
+agile software development methods including and discussing OSS as an
+agile method.  However, he stresses that FOSS development is not a
+precise method and evolves differently for each project. Indeed, Eric
+Raymond's description of the development process from ``The Cathedral
+and the Bazaar'' \cite{raymond1999} is closer to an experience report
+than to the description of a process with guidelines and
 practices. Nevertheless, Raymond's text presents several actions that
 could be related to the agile manifesto \cite{url:agilemanifesto} and
 are common in other FOSS projects.
@@ -173,15 +165,16 @@ Raymond quotes Linus Torvalds about two specific development policy
 for the Linux Kernel.
 \begin{enumerate}
 \item[7.] Release early. Release often. And listen to your customers.
-\item[8.] Given a large enough beta-tester and co-developer bse,
-  almost every problem will be characterized quickly and the fix
-  obvious to someone.
+\item[8.] Given a large enough beta-tester and co-developer base,
+  almost every problem will be characterized quickly and the fix will
+  be obvious to someone.
 \end{enumerate}
 
 The first policy hints for an iterative and short development process
 with frequent feedback input. The second one points to a large amount
 of test done frequently. Those ideas are core principles for agile
-methods and largely applied to most sucessful FOSS projects.
+methods and largely applied to several sucessful FOSS projects.
+% TODO Referencias
 
 We can, therefore, state that the FOSS community have a culture that
 is similar to the one of the agile community. Given that there is such
@@ -190,8 +183,8 @@ forgotten that the environment in which each solution outstand are
 quite different.
 
 Open source software is stronger when it comes to products that
-``scratch a developer's itch'' \cite{fitzgerald2000}, i.e. a product in
-which the own developer can be the user. Such product evolve across
+``scratch a developer's itch'' \cite{fitzgerald2000}, i.e. a product
+in which the own developer can be the user. Such product evolve across
 the Internet gathering volunteers interested in such development by
 releasing versions of the software frequently.
 
@@ -202,12 +195,12 @@ competent people closely gathered with freedom to improve their
 environment and process to enable what Cockburn calls osmotic
 communication \cite{cockburn2004}.
 
-The most critical discrepency is the one regarding
+The most critical discrepeancy is the one regarding
 communication. Agile methods stress out that many software development
-problems come from miss communication and the best way to mitigate it
-is to keep people close and in constant conversations. Open source
+problems come from the lack of high quality communication and the best way to mitigate it
+is to keep people close and in constant contact. Open source
 software are inherently distributed and frequently run by people that
-only met through the Internet. Could there be a way to unite the
+only meet through the Internet. Could there be a way to unite the
 strenght of both communities and improve development in distributed
 environments with changing requirements?
 
@@ -219,11 +212,11 @@ and what information were expected to be collected.
 \label{sec:surveys}
 
 Since the motivation to write was to understand if the agile community
-and the FOSS community could be united, one survey was directed to
-agile practionners while the other was aimed to FOSS contributors.
-Each survey intended to characterize the answering public and was
-available on the Internet and was spread in channels common to the
-desired communities.
+and the FOSS community could share more principles and practices, one
+survey was directed to agile practionners while the other was aimed to
+FOSS contributors.  Each survey intended to characterize the answering
+public, was available on the Internet and was spread in channels
+common to the target communities.
 
 The next subsection presents the survey created for the FLOSS
 community while the following one shows the one aimed to the agile
@@ -235,39 +228,43 @@ community.
 For both surveys, part of the goal was to identify which part of the
 community answered the question and how representatives they were for
 their community. Therefore, the first set of questions were pretty
-similar between both surveys and inquired the participant about her
+similar between both surveys and inquired the participants about their
 year of birth and country of residence. Both surveys also tried to
-evaluate the experience of the participant in her community. For the
-FLOSS community that translated to the amount of project with which
-the participant had contributed with as well the first year of her
+evaluate the experience of the participants in their community. For
+the FLOSS community that translated to the amount of project with
+which the participant had contributed with as well the first year of
 contribution.
 
 This last question as well as the following ones were only displayed
 if the participant had contributed to at least one FLOSS project since
 most questions would be meaningless otherwise. In order to narrow the
-environment that the participant would have to evaluate as well as her
-experience in such project, she was asked the name of the main project
-as well as her role in the project.
+environment that the participants would have to evaluate as well as
+their experience in such project, they were asked the name of the main
+project as well as their role in the project.
 
 To understand how the project ensure communication between its
-collaborators, the participant was asked how big was the project team
-and, if there was a team (not a single person team) what was the
-communication channel used to communicate among the team and how good
-she evaluated the communication through that channel.  The survey also
-included a similar question regarding the communication channel with
-the users of project and its evaluated quality.
+collaborators, the participants were asked how big was the project
+team and, if there was a team (not a single person team) what was the
+communication channel used to communicate among them. The survey also
+asked the participant to evaluate the quality of the communication
+through that channel. The survey also included a similar question
+regarding the communication channel with the users of project and its
+evaluated quality.
 
 At last, the survey inquired the participants about which of 8 tools
 did the project already used and how they would classify the
 usefulness of those tools to mitigate their problem with the project's
 development.
 
-A paper version of the survey can be found in Appendix \ref{appendix:a}
-while the online version can be accessed at {\tt
-  http://www.ime.usp.br/~corbucci/floss-survey}.  The survey was
-announced via twitter\footnote{http://twitter.com} by the authors and
-received the support of GitHub\footnote{http://github.com} who asked
-their users to fill in the survey.
+A paper version of the survey can be found in Appendix
+\ref{appendix:a}\footnote{The online address of the survey was ommited
+  according to the submission rules}.
+% while the online version can be accessed at {\tt
+%   http://www.ime.usp.br/~corbucci/floss-survey}.
+The survey was announced via twitter\footnote{http://twitter.com} by
+the authors and received the support of
+GitHub\footnote{http://github.com} who asked their users to fill in
+the survey.
 
 The survey was also sent to other FLOSS project hosting systems such
 as SourceForge.net, LaunchPad.net, CodeHaus, Google Code but none
@@ -283,39 +280,41 @@ The beginning of the survey directed to the Agile community was very
 similar to the one to the FLOSS community since its goal was to
 collect data to characterize the participants.  After the first
 questions regarding the residence country and the year of bird, the
-agile survey inquired the participant about her agile experience
-asking on how many agile projects she participated in and when was her
-first agile project.
+agile survey inquired the participants about their agile experience
+asking on how many agile projects they participated in and when was
+their first agile project.
 
 Similarly to the FLOSS survey, this last question as well as the
 following were only displayed to participants that had been in at
 least one of agile project. The survey kept on asking about the
-participant's main role in the project and the team size working with
-her. The participant was then asked to inform the main communication
-channel used to communicate with the client of that project as well as
-the quality of communication on that channel.
+participant's main role in the project and the size of the team
+involved. The participant was then asked to inform the main
+communication channel used to communicate with the client of that
+project as well as the quality of communication on that channel.
 
 Divergence from the FLOSS survey followed with a question inquiring if
 the participant had any previous experience with applying agile
-methods in a distributed environment. If so, the participant was aked
+methods in a distributed environment. If so, the participant was asked
 to describe the communication channel used in this distributed project
 and its quality.
 
-The participant was then asked to sort the 3 most critical problems
-she encountered in the agile environment in which she
+The participants were then asked to sort the 3 most critical problems
+encountered in the agile environment in which they
 participated. Afterwards the participant should sort the top 3 tools
-(out of 8) that would help her in a distributed agile environment.
+(out of 8) that would help in a distributed agile environment.
 
-Finally, the participant was asked if she was a FLOSS contributor and,
-if so, how agile she considered her FLOSS project and how would she
-sort the problems and tools in that FLOSS environment.
+Finally, the participants were asked if they were FLOSS contributors
+and, if so, how agile they considered their FLOSS project and how
+would they sort the problems and tools in that FLOSS environment.
 
-The paper version of this version can be found in Appendix \ref{appendix:b}
-while the online version can be found at {\tt
-  http://www.ime.usp.br/~corbucci/agile-survey}. This survey was
-announced in mailing lists related to the subject as well as blogs and
-twitter by various supporters. The authors also seeked the support
-from the Agile Alliance but no answer was provided.
+The paper version of this version can be found in Appendix
+\ref{appendix:b}\footnote{The online address of the survey was ommited
+  according to the submission rules}
+% while the online version can be found at {\tt
+%   http://www.ime.usp.br/~corbucci/agile-survey}.
+This survey was announced in mailing lists related to the subject as
+well as blogs and twitter by various supporters. The authors also
+seeked the support from the Agile Alliance but no answer was provided.
 
 \section{Survey results}
 \label{sec:results}
@@ -343,7 +342,7 @@ The results for the FLOSS survey were collected between 2009/07/28 and
 duplicated data (same IP address and time entry) while 4 others were
 invalid answers (caused by Javascript errors). This unexpected data
 shows that aproximately 1\% of people who are connected with FLOSS
-communities use either Internet Explorer 6 or 7.
+communities use a browser not compatible with the standarts.
 
 Out of those 302 valid entries, 122 were answers in which the
 participant never contributed to a FLOSS project but considered
@@ -364,29 +363,32 @@ FLOSS community actually contributes with projects.
 \end{figure}
 
 The analysis was performed over the 180 answers left since they
-provided more interesting data. The figure \ref{fig:floss-world}
-represents the distribution of the answers around the globe while the
-figure \ref{fig:floss-income} shows the percentage main income origin
-for the participants. The average age of the participants was 28 years
-old and their first FLOSS contribution was around 22 years of age but
-figure \ref{fig:floss-firstxp} shows that it the average first
-contribution age for older people is higher than for younger ones.
+provided more interesting data. Figure \ref{fig:floss-world}
+represents the distribution of the answers around the globe. Figure
+\ref{fig:floss-income} shows the main income origin of the
+participants. The average age of the participants was 28 years old and
+the average year of for the first FLOSS contribution was 2003. Figure
+\ref{fig:floss-firstxp} shows that younger participants started
+contributing earlier in their life than older participants which can
+be explained by the increasing ease to get in touch with a computer in
+the last years.
 
 \begin{figure}[htb]
   \centering
-  \includegraphics{floss-firstxp.pdf}
+  \includegraphics[scale=.9]{floss-firstxp.pdf}
   \caption{Age of first contribution by year of birth}
   \label{fig:floss-firstxp}
 \end{figure}
+% TODO Melhorar gráfico de idades de contribuição inicial
 
 About two thirds of the participants were project maintainers,
 commiters or programmers. The last third was partitioned between other
-roles as shows figure \ref{fig:floss-roles}. Team sizes were also
+roles as shows Figure \ref{fig:floss-roles}. Team sizes were also
 fairly representative since only 6\% of the project were single person
 team while 48\% were up to 5 team members. Figure
-\ref{fig:floss-teams} shows those results and the others. It is
-interesting to notice that such profile is similar to the one
-described by Reis \cite{reis2003} obtained in 2003.
+\ref{fig:floss-teams} shows those results and the reported team
+sizes. It is interesting to notice that such profile is similar to the
+one described by Reis \cite{reis2003} obtained in 2003.
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.5\linewidth}
@@ -435,10 +437,41 @@ failure was considered the most useful tool by large followed by a
 dynamic roadmap status from the issue tracking management system and
 issue tracking management from repository commit logs.
 
+\begin{figure}[hbt]
+  \centering
+  \includegraphics[scale=.8]{floss-existingtools.pdf}
+  \caption{Tool participants already use in their project}
+  \label{fig:floss-existingtools}
+\end{figure}
+
+Figure \ref{fig:floss-existingtools} shows that a reasonable amount of
+project already have automatic email/message on build failure and
+issue tracking management from repository commit logs.
+
+However, we should be aware that Github features an issue tracking
+management from repository commits while many other forges don't. And
+since Github officially announced the survey, it is probable that many
+of their users answered the survey.
+
 \subsection{Individual results from the Agile community}
 \label{subsec:agile-results}
 
-Results were collected between 2009/10/01 and 2009/12/01.
+The results for the survey directed to the agile community were
+collected between 2009/10/01 and 2009/12/01. It received 204 answers
+from which 9 were duplicate entries and 34 were invalid due to the use
+of incompatible browsers. Such data shows us that about 18\% of the
+participants still use browsers incompatible with Javascript
+standarts. Sensibly more people than in the FLOSS community.
+
+Out of those 161 valid answers, only 28 were from people that never
+actually participanted in an agile project but considered themselves
+as agile practioners. Another fairly different result from the FLOSS
+community. The agile community seems to value ``hands on'' experience
+much more than the FLOSS community.
+
+% TODO Melhorar gráfico de idades de contribuição inicial
+
+
 
 \subsection{Crossed results}
 \label{subsec:crossed-results}
