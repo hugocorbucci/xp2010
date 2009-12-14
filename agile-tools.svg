@@ -8,7 +8,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 600.0001 242.81694"
+   viewBox="0 0 493.83347 227.33882"
    preserveAspectRatio="xMidYMid"
    id="svg2"
    inkscape:version="0.47 r22583"
@@ -40,9 +40,9 @@
      inkscape:window-height="1006"
      id="namedview1037"
      showgrid="false"
-     inkscape:zoom="2.003333"
-     inkscape:cx="300.00005"
-     inkscape:cy="121.40847"
+     inkscape:zoom="2.1849996"
+     inkscape:cx="275.69602"
+     inkscape:cy="112.03249"
      inkscape:window-x="4"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -388,67 +388,10 @@
       </glyph>
     </font>
   </defs>
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 234.13671,220.76165 -210.286941,0 0,-212.3109443 420.594751,0 0,212.3109443 -210.30781,0"
-     id="path185" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,220.74078 -420.594751,0"
-     id="path187" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,185.35215 -420.594751,0"
-     id="path189" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,149.96351 -420.594751,0"
-     id="path191" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,114.55401 -420.594751,0"
-     id="path193" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,79.186242 -420.594751,0"
-     id="path195" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,43.818474 -420.594751,0"
-     id="path197" />
-  <path
-     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
-     d="m 444.44452,8.4089738 -420.594751,0"
-     id="path199" />
   <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g217"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 1143,10729 0,-150"
-       id="path219" />
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 7862,10729 0,-150"
-       id="path221" />
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 14580,10729 0,-150"
-       id="path223" />
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 21300,10729 0,-150"
-       id="path225" />
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 1143,10579 20157,0"
-       id="path227" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded;fill-opacity:1"
+     style="font-size:281px;font-weight:400;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial embedded"
      id="g229"
-     transform="scale(0.02086594,0.02086594)">
+     transform="matrix(0.02086594,0,0,0.02086594,-12.305087,-6.1021463)">
     <text
        id="text231"
        style="fill:#000000;fill-opacity:1">
@@ -513,56 +456,114 @@
          style="fill:#000000;fill-opacity:1">60</tspan>
     </text>
   </g>
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 146.1569,214.6595 -135.89632,0 0,-212.3109406 271.80612,0 0,212.3109406 -135.9098,0"
+     id="path185" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,214.63863 -271.80612,0"
+     id="path187" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,179.25 -271.80612,0"
+     id="path189" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,143.86136 -271.80612,0"
+     id="path191" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,108.45186 -271.80612,0"
+     id="path193" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,73.084096 -271.80612,0"
+     id="path195" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,37.716328 -271.80612,0"
+     id="path197" />
+  <path
+     style="fill:none;stroke:#b3b3b3;stroke-width:1.00000012;visibility:visible"
+     d="m 282.0667,2.3068275 -271.80612,0"
+     id="path199" />
   <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g259"
-     transform="scale(0.02086594,0.02086594)">
+     style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:59.61621857;visibility:visible;font-family:Arial embedded"
+     id="g217"
+     transform="matrix(0.01348445,0,0,0.02086594,-5.15215,-6.1021463)">
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
+       d="m 1143,10729 0,-150"
+       id="path219" />
+    <path
+       style="fill:none;stroke-width:59.61621857"
+       d="m 7862,10729 0,-150"
+       id="path221" />
+    <path
+       style="fill:none;stroke-width:59.61621857"
+       d="m 14580,10729 0,-150"
+       id="path223" />
+    <path
+       style="fill:none;stroke-width:59.61621857"
+       d="m 21300,10729 0,-150"
+       id="path225" />
+    <path
+       style="fill:none;stroke-width:59.61621857"
+       d="m 1143,10579 20157,0"
+       id="path227" />
+  </g>
+  <g
+     style="font-size:281px;font-weight:400;fill:none;stroke:#b3b3b3;stroke-width:59.61621857;visibility:visible;font-family:Arial embedded"
+     id="g259"
+     transform="matrix(0.01348445,0,0,0.02086594,-5.15215,-6.1021463)">
+    <path
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,10579 150,0"
        id="path261" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,8883 150,0"
        id="path263" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,7187 150,0"
        id="path265" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,5490 150,0"
        id="path267" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,3795 150,0"
        id="path269" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,2099 150,0"
        id="path271" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="m 993,403 150,0"
        id="path273" />
     <path
-       style="fill:none;stroke-width:47.92499924"
+       style="fill:none;stroke-width:59.61621857"
        d="M 1143,10579 1143,403"
        id="path275" />
   </g>
   <g
-     id="g11912">
+     id="g11912"
+     transform="matrix(0.64624231,0,0,1,-5.15215,-6.1021463)">
     <path
        d="m 312.02927,220.74078 15.56599,0 0,-35.38863 -15.56599,0 0,35.38863 z"
        id="path279"
        style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 312.02927,220.74078 15.56599,0 0,-35.38863 -15.56599,0 0,35.38863"
        id="path283" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g301">
       <line
          x1="15700"
@@ -570,220 +571,220 @@
          x2="15798"
          y2="6678"
          id="line303"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="6925"
          x2="15948"
          y2="6678"
          id="line305"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7075"
          x2="16098"
          y2="6678"
          id="line307"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7224"
          x2="16248"
          y2="6678"
          id="line309"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7374"
          x2="16398"
          y2="6678"
          id="line311"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7523"
          x2="16447"
          y2="6779"
          id="line313"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7673"
          x2="16447"
          y2="6928"
          id="line315"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7822"
          x2="16447"
          y2="7078"
          id="line317"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="7972"
          x2="16447"
          y2="7227"
          id="line319"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8121"
          x2="16447"
          y2="7377"
          id="line321"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8271"
          x2="16447"
          y2="7526"
          id="line323"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8420"
          x2="16447"
          y2="7676"
          id="line325"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8570"
          x2="16447"
          y2="7825"
          id="line327"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8719"
          x2="16447"
          y2="7975"
          id="line329"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="8868"
          x2="16447"
          y2="8124"
          id="line331"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9018"
          x2="16447"
          y2="8274"
          id="line333"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9167"
          x2="16447"
          y2="8423"
          id="line335"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9317"
          x2="16447"
          y2="8573"
          id="line337"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9466"
          x2="16447"
          y2="8722"
          id="line339"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9616"
          x2="16447"
          y2="8871"
          id="line341"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9765"
          x2="16447"
          y2="9021"
          id="line343"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="9915"
          x2="16447"
          y2="9170"
          id="line345"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="10064"
          x2="16447"
          y2="9320"
          id="line347"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="10214"
          x2="16447"
          y2="9469"
          id="line349"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="10363"
          x2="16447"
          y2="9619"
          id="line351"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15700"
          y1="10513"
          x2="16447"
          y2="9768"
          id="line353"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15783"
          y1="10579"
          x2="16447"
          y2="9918"
          id="line355"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="15933"
          y1="10579"
          x2="16447"
          y2="10067"
          id="line357"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="16083"
          y1="10579"
          x2="16447"
          y2="10217"
          id="line359"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="16233"
          y1="10579"
          x2="16447"
          y2="10366"
          id="line361"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="16383"
          y1="10579"
          x2="16447"
          y2="10516"
          id="line363"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 327.59526,220.74078 15.58686,0 0,-81.39803 -15.58686,0 0,81.39803"
        id="path365" />
     <path
@@ -791,12 +792,12 @@
        id="path509"
        style="font-size:281px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 343.18212,220.74078 15.56599,0 0,-155.701645 -15.56599,0 0,155.701645"
        id="path513" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g531">
       <line
          x1="17793"
@@ -804,157 +805,157 @@
          x2="17940"
          y2="8182"
          id="line533"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17643"
          y1="8035"
          x2="17940"
          y2="8331"
          id="line535"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17493"
          y1="8035"
          x2="17940"
          y2="8481"
          id="line537"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17343"
          y1="8035"
          x2="17940"
          y2="8630"
          id="line539"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8035"
          x2="17940"
          y2="8780"
          id="line541"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8185"
          x2="17940"
          y2="8929"
          id="line543"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8334"
          x2="17940"
          y2="9079"
          id="line545"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8484"
          x2="17940"
          y2="9228"
          id="line547"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8633"
          x2="17940"
          y2="9378"
          id="line549"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8783"
          x2="17940"
          y2="9527"
          id="line551"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="8932"
          x2="17940"
          y2="9677"
          id="line553"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9082"
          x2="17940"
          y2="9826"
          id="line555"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9231"
          x2="17940"
          y2="9976"
          id="line557"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9381"
          x2="17940"
          y2="10125"
          id="line559"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9530"
          x2="17940"
          y2="10275"
          id="line561"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9680"
          x2="17940"
          y2="10424"
          id="line563"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9829"
          x2="17940"
          y2="10573"
          id="line565"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="9979"
          x2="17796"
          y2="10579"
          id="line567"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="10128"
          x2="17646"
          y2="10579"
          id="line569"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="10277"
          x2="17496"
          y2="10579"
          id="line571"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="10427"
          x2="17346"
          y2="10579"
          id="line573"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="17193"
          y1="10576"
          x2="17196"
          y2="10579"
          id="line575"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 358.74811,220.74078 15.58685,0 0,-53.08295 -15.58685,0 0,53.08295"
        id="path577" />
     <path
@@ -962,12 +963,12 @@
        id="path703"
        style="font-size:281px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 374.33496,220.74078 15.56599,0 0,-28.31508 -15.56599,0 0,28.31508"
        id="path707" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g725">
       <line
          x1="18686"
@@ -975,136 +976,136 @@
          x2="19433"
          y2="8623"
          id="line727"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="8729"
          x2="19433"
          y2="8729"
          id="line729"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="8835"
          x2="19433"
          y2="8835"
          id="line731"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="8940"
          x2="19433"
          y2="8940"
          id="line733"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9046"
          x2="19433"
          y2="9046"
          id="line735"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9151"
          x2="19433"
          y2="9151"
          id="line737"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9257"
          x2="19433"
          y2="9257"
          id="line739"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9363"
          x2="19433"
          y2="9363"
          id="line741"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9468"
          x2="19433"
          y2="9468"
          id="line743"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9574"
          x2="19433"
          y2="9574"
          id="line745"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9680"
          x2="19433"
          y2="9680"
          id="line747"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9785"
          x2="19433"
          y2="9785"
          id="line749"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9891"
          x2="19433"
          y2="9891"
          id="line751"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="9996"
          x2="19433"
          y2="9996"
          id="line753"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="10102"
          x2="19433"
          y2="10102"
          id="line755"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="10208"
          x2="19433"
          y2="10208"
          id="line757"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="10313"
          x2="19433"
          y2="10313"
          id="line759"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="10419"
          x2="19433"
          y2="10419"
          id="line761"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="18686"
          y1="10525"
          x2="19433"
          y2="10525"
          id="line763"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 389.90095,220.74078 15.58686,0 0,-42.46219 -15.58686,0 0,42.46219"
        id="path765" />
     <path
@@ -1112,12 +1113,12 @@
        id="path831"
        style="font-size:281px;font-weight:400;fill:#cccccc;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 405.48781,220.74078 15.58686,0 0,-28.31508 -15.58686,0 0,28.31508"
        id="path835" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g853">
       <line
          x1="20260"
@@ -1125,68 +1126,69 @@
          x2="20260"
          y2="10579"
          id="line855"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20366"
          y1="8374"
          x2="20366"
          y2="10579"
          id="line857"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20472"
          y1="8374"
          x2="20472"
          y2="10579"
          id="line859"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20577"
          y1="8374"
          x2="20577"
          y2="10579"
          id="line861"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20683"
          y1="8374"
          x2="20683"
          y2="10579"
          id="line863"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20789"
          y1="8374"
          x2="20789"
          y2="10579"
          id="line865"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="20895"
          y1="8374"
          x2="20895"
          y2="10579"
          id="line867"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 421.07467,220.74078 15.56599,0 0,-46.0094 -15.56599,0 0,46.0094"
        id="path869" />
   </g>
   <g
-     id="g11788">
+     id="g11788"
+     transform="matrix(0.64624231,0,0,1,-5.15215,-6.1021463)">
     <path
        d="m 171.81015,220.74078 15.60772,0 0,-74.32448 -15.60772,0 0,74.32448 z"
        id="path287"
        style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 171.81015,220.74078 15.60772,0 0,-74.32448 -15.60772,0 0,74.32448"
        id="path291" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g367">
       <line
          x1="8982"
@@ -1194,367 +1196,367 @@
          x2="9080"
          y2="3456"
          id="line369"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="3703"
          x2="9230"
          y2="3456"
          id="line371"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="3852"
          x2="9379"
          y2="3456"
          id="line373"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4002"
          x2="9529"
          y2="3456"
          id="line375"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4151"
          x2="9679"
          y2="3456"
          id="line377"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4301"
          x2="9728"
          y2="3556"
          id="line379"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4450"
          x2="9728"
          y2="3706"
          id="line381"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4600"
          x2="9728"
          y2="3855"
          id="line383"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4749"
          x2="9728"
          y2="4005"
          id="line385"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="4899"
          x2="9728"
          y2="4154"
          id="line387"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5048"
          x2="9728"
          y2="4304"
          id="line389"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5198"
          x2="9728"
          y2="4453"
          id="line391"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5347"
          x2="9728"
          y2="4603"
          id="line393"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5496"
          x2="9728"
          y2="4752"
          id="line395"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5646"
          x2="9728"
          y2="4902"
          id="line397"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5795"
          x2="9728"
          y2="5051"
          id="line399"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="5945"
          x2="9728"
          y2="5201"
          id="line401"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6094"
          x2="9728"
          y2="5350"
          id="line403"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6244"
          x2="9728"
          y2="5499"
          id="line405"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6393"
          x2="9728"
          y2="5649"
          id="line407"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6543"
          x2="9728"
          y2="5798"
          id="line409"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6692"
          x2="9728"
          y2="5948"
          id="line411"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6842"
          x2="9728"
          y2="6097"
          id="line413"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="6991"
          x2="9728"
          y2="6247"
          id="line415"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7141"
          x2="9728"
          y2="6396"
          id="line417"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7290"
          x2="9728"
          y2="6546"
          id="line419"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7440"
          x2="9728"
          y2="6695"
          id="line421"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7589"
          x2="9728"
          y2="6845"
          id="line423"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7739"
          x2="9728"
          y2="6994"
          id="line425"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="7888"
          x2="9728"
          y2="7144"
          id="line427"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8037"
          x2="9728"
          y2="7293"
          id="line429"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8187"
          x2="9728"
          y2="7443"
          id="line431"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8336"
          x2="9728"
          y2="7592"
          id="line433"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8486"
          x2="9728"
          y2="7742"
          id="line435"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8635"
          x2="9728"
          y2="7891"
          id="line437"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8785"
          x2="9728"
          y2="8040"
          id="line439"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="8934"
          x2="9728"
          y2="8190"
          id="line441"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9084"
          x2="9728"
          y2="8339"
          id="line443"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9233"
          x2="9728"
          y2="8489"
          id="line445"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9383"
          x2="9728"
          y2="8638"
          id="line447"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9532"
          x2="9728"
          y2="8788"
          id="line449"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9682"
          x2="9728"
          y2="8937"
          id="line451"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9831"
          x2="9728"
          y2="9087"
          id="line453"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="9981"
          x2="9728"
          y2="9236"
          id="line455"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="10130"
          x2="9728"
          y2="9386"
          id="line457"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="10279"
          x2="9728"
          y2="9535"
          id="line459"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="10429"
          x2="9728"
          y2="9685"
          id="line461"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="8982"
          y1="10578"
          x2="9728"
          y2="9834"
          id="line463"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="9131"
          y1="10579"
          x2="9728"
          y2="9984"
          id="line465"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="9281"
          y1="10579"
          x2="9728"
          y2="10133"
          id="line467"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="9430"
          y1="10579"
          x2="9728"
          y2="10282"
          id="line469"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="9580"
          y1="10579"
          x2="9728"
          y2="10432"
          id="line471"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 187.41787,220.74078 15.56599,0 0,-148.628091 -15.56599,0 0,148.628091"
        id="path473" />
     <path
@@ -1562,12 +1564,12 @@
        id="path517"
        style="font-size:281px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 202.98386,220.74078 15.58686,0 0,-24.76787 -15.58686,0 0,24.76787"
        id="path521" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g579">
       <line
          x1="11074"
@@ -1575,185 +1577,185 @@
          x2="11221"
          y2="7503"
          id="line581"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10924"
          y1="7357"
          x2="11221"
          y2="7653"
          id="line583"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10774"
          y1="7357"
          x2="11221"
          y2="7802"
          id="line585"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10624"
          y1="7357"
          x2="11221"
          y2="7952"
          id="line587"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="7357"
          x2="11221"
          y2="8101"
          id="line589"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="7506"
          x2="11221"
          y2="8251"
          id="line591"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="7656"
          x2="11221"
          y2="8400"
          id="line593"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="7805"
          x2="11221"
          y2="8550"
          id="line595"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="7955"
          x2="11221"
          y2="8699"
          id="line597"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8104"
          x2="11221"
          y2="8849"
          id="line599"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8254"
          x2="11221"
          y2="8998"
          id="line601"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8403"
          x2="11221"
          y2="9148"
          id="line603"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8553"
          x2="11221"
          y2="9297"
          id="line605"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8702"
          x2="11221"
          y2="9446"
          id="line607"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="8852"
          x2="11221"
          y2="9596"
          id="line609"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9001"
          x2="11221"
          y2="9745"
          id="line611"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9150"
          x2="11221"
          y2="9895"
          id="line613"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9300"
          x2="11221"
          y2="10044"
          id="line615"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9449"
          x2="11221"
          y2="10194"
          id="line617"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9599"
          x2="11221"
          y2="10343"
          id="line619"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9748"
          x2="11221"
          y2="10493"
          id="line621"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="9898"
          x2="11158"
          y2="10579"
          id="line623"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="10047"
          x2="11008"
          y2="10579"
          id="line625"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="10197"
          x2="10858"
          y2="10579"
          id="line627"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="10346"
          x2="10708"
          y2="10579"
          id="line629"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="10475"
          y1="10496"
          x2="10559"
          y2="10579"
          id="line631"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 218.57072,220.74078 15.56599,0 0,-67.23006 -15.56599,0 0,67.23006"
        id="path633" />
     <path
@@ -1761,12 +1763,12 @@
        id="path711"
        style="font-size:281px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 234.13671,220.74078 15.56599,0 0,-56.63016 -15.56599,0 0,56.63016"
        id="path715" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g767">
       <line
          x1="11967"
@@ -1774,150 +1776,150 @@
          x2="12714"
          y2="8454"
          id="line769"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="8560"
          x2="12714"
          y2="8560"
          id="line771"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="8665"
          x2="12714"
          y2="8665"
          id="line773"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="8771"
          x2="12714"
          y2="8771"
          id="line775"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="8876"
          x2="12714"
          y2="8876"
          id="line777"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="8982"
          x2="12714"
          y2="8982"
          id="line779"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9088"
          x2="12714"
          y2="9088"
          id="line781"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9193"
          x2="12714"
          y2="9193"
          id="line783"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9299"
          x2="12714"
          y2="9299"
          id="line785"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9405"
          x2="12714"
          y2="9405"
          id="line787"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9510"
          x2="12714"
          y2="9510"
          id="line789"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9616"
          x2="12714"
          y2="9616"
          id="line791"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9721"
          x2="12714"
          y2="9721"
          id="line793"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9827"
          x2="12714"
          y2="9827"
          id="line795"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="9933"
          x2="12714"
          y2="9933"
          id="line797"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10038"
          x2="12714"
          y2="10038"
          id="line799"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10144"
          x2="12714"
          y2="10144"
          id="line801"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10250"
          x2="12714"
          y2="10250"
          id="line803"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10355"
          x2="12714"
          y2="10355"
          id="line805"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10461"
          x2="12714"
          y2="10461"
          id="line807"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="11967"
          y1="10566"
          x2="12714"
          y2="10566"
          id="line809"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 249.7027,220.74078 15.58686,0 0,-46.0094 -15.58686,0 0,46.0094"
        id="path811" />
     <path
@@ -1925,12 +1927,12 @@
        id="path839"
        style="font-size:281px;font-weight:400;fill:#cccccc;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 265.28956,220.74078 15.56599,0 0,-3.54721 -15.56599,0 0,3.54721"
        id="path843" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g871">
       <line
          x1="13540"
@@ -1938,68 +1940,69 @@
          x2="13540"
          y2="10579"
          id="line873"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="13646"
          y1="8205"
          x2="13646"
          y2="10579"
          id="line875"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="13752"
          y1="8205"
          x2="13752"
          y2="10579"
          id="line877"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="13858"
          y1="8205"
          x2="13858"
          y2="10579"
          id="line879"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="13964"
          y1="8205"
          x2="13964"
          y2="10579"
          id="line881"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="14070"
          y1="8205"
          x2="14070"
          y2="10579"
          id="line883"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="14176"
          y1="8205"
          x2="14176"
          y2="10579"
          id="line885"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 280.85555,220.74078 15.60773,0 0,-49.53574 -15.60773,0 0,49.53574"
        id="path887" />
   </g>
   <g
-     id="g11712">
+     id="g11712"
+     transform="matrix(0.64624231,0,0,1,-5.15215,-6.1021463)">
     <path
        d="m 31.632765,220.74078 15.565991,0 0,-169.869618 -15.565991,0 0,169.869618 z"
        id="path295"
        style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 31.632765,220.74078 15.565991,0 0,-169.869618 -15.565991,0 0,169.869618"
        id="path299" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g475">
       <line
          x1="2262"
@@ -2007,101 +2010,101 @@
          x2="2360"
          y2="9222"
          id="line477"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="9469"
          x2="2510"
          y2="9222"
          id="line479"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="9619"
          x2="2660"
          y2="9222"
          id="line481"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="9768"
          x2="2810"
          y2="9222"
          id="line483"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="9918"
          x2="2960"
          y2="9222"
          id="line485"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="10067"
          x2="3009"
          y2="9323"
          id="line487"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="10217"
          x2="3009"
          y2="9472"
          id="line489"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="10366"
          x2="3009"
          y2="9622"
          id="line491"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2262"
          y1="10516"
          x2="3009"
          y2="9771"
          id="line493"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2348"
          y1="10579"
          x2="3009"
          y2="9921"
          id="line495"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2498"
          y1="10579"
          x2="3009"
          y2="10070"
          id="line497"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2648"
          y1="10579"
          x2="3009"
          y2="10220"
          id="line499"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2798"
          y1="10579"
          x2="3009"
          y2="10369"
          id="line501"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="2948"
          y1="10579"
          x2="3009"
          y2="10519"
          id="line503"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 47.198756,220.74078 15.586857,0 0,-28.31508 -15.586857,0 0,28.31508"
        id="path505" />
     <path
@@ -2109,12 +2112,12 @@
        id="path525"
        style="font-size:281px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 62.785613,220.74078 15.586858,0 0,-42.46219 -15.586858,0 0,42.46219"
        id="path529" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g635">
       <line
          x1="4356"
@@ -2122,220 +2125,220 @@
          x2="4502"
          y2="6825"
          id="line637"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="4206"
          y1="6678"
          x2="4502"
          y2="6974"
          id="line639"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="4056"
          y1="6678"
          x2="4502"
          y2="7124"
          id="line641"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3906"
          y1="6678"
          x2="4502"
          y2="7273"
          id="line643"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="6678"
          x2="4502"
          y2="7423"
          id="line645"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="6828"
          x2="4502"
          y2="7572"
          id="line647"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="6977"
          x2="4502"
          y2="7722"
          id="line649"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7127"
          x2="4502"
          y2="7871"
          id="line651"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7276"
          x2="4502"
          y2="8021"
          id="line653"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7426"
          x2="4502"
          y2="8170"
          id="line655"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7575"
          x2="4502"
          y2="8319"
          id="line657"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7725"
          x2="4502"
          y2="8469"
          id="line659"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="7874"
          x2="4502"
          y2="8618"
          id="line661"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8023"
          x2="4502"
          y2="8768"
          id="line663"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8173"
          x2="4502"
          y2="8917"
          id="line665"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8322"
          x2="4502"
          y2="9067"
          id="line667"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8472"
          x2="4502"
          y2="9216"
          id="line669"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8621"
          x2="4502"
          y2="9366"
          id="line671"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8771"
          x2="4502"
          y2="9515"
          id="line673"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="8920"
          x2="4502"
          y2="9665"
          id="line675"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9070"
          x2="4502"
          y2="9814"
          id="line677"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9219"
          x2="4502"
          y2="9964"
          id="line679"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9369"
          x2="4502"
          y2="10113"
          id="line681"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9518"
          x2="4502"
          y2="10263"
          id="line683"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9668"
          x2="4502"
          y2="10412"
          id="line685"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9817"
          x2="4502"
          y2="10561"
          id="line687"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="9967"
          x2="4370"
          y2="10579"
          id="line689"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="10116"
          x2="4221"
          y2="10579"
          id="line691"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="10266"
          x2="4071"
          y2="10579"
          id="line693"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="10415"
          x2="3921"
          y2="10579"
          id="line695"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="3756"
          y1="10564"
          x2="3771"
          y2="10579"
          id="line697"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 78.372471,220.74078 15.565991,0 0,-81.39803 -15.565991,0 0,81.39803"
        id="path699" />
     <path
@@ -2343,12 +2346,12 @@
        id="path719"
        style="font-size:281px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 93.938462,220.74078 15.586858,0 0,-92.0188 -15.586858,0 0,92.0188"
        id="path723" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g813">
       <line
          x1="5249"
@@ -2356,45 +2359,45 @@
          x2="5995"
          y2="9981"
          id="line815"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="5249"
          y1="10086"
          x2="5995"
          y2="10086"
          id="line817"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="5249"
          y1="10192"
          x2="5995"
          y2="10192"
          id="line819"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="5249"
          y1="10297"
          x2="5995"
          y2="10297"
          id="line821"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="5249"
          y1="10403"
          x2="5995"
          y2="10403"
          id="line823"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="5249"
          y1="10509"
          x2="5995"
          y2="10509"
          id="line825"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 109.52532,220.74078 15.56599,0 0,-14.14711 -15.56599,0 0,14.14711"
        id="path827" />
     <path
@@ -2402,12 +2405,12 @@
        id="path847"
        style="font-size:281px;font-weight:400;fill:#cccccc;stroke:none;visibility:visible;font-family:Arial embedded" />
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 125.09131,220.74078 15.58686,0 0,-7.07355 -15.58686,0 0,7.07355"
        id="path851" />
     <g
        transform="scale(0.02086594,0.02086594)"
-       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2857.10742188;visibility:visible;font-family:Arial embedded"
        id="g889">
       <line
          x1="6822"
@@ -2415,399 +2418,400 @@
          x2="6822"
          y2="10579"
          id="line891"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="6927"
          y1="8883"
          x2="6927"
          y2="10579"
          id="line893"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="7033"
          y1="8883"
          x2="7033"
          y2="10579"
          id="line895"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="7139"
          y1="8883"
          x2="7139"
          y2="10579"
          id="line897"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="7245"
          y1="8883"
          x2="7245"
          y2="10579"
          id="line899"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="7351"
          y1="8883"
          x2="7351"
          y2="10579"
          id="line901"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
       <line
          x1="7457"
          y1="8883"
          x2="7457"
          y2="10579"
          id="line903"
-         style="stroke-width:47.92499924" />
+         style="stroke-width:59.61621857" />
     </g>
     <path
-       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded"
+       style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.24394834;visibility:visible;font-family:Arial embedded"
        d="m 140.67817,220.74078 15.56599,0 0,-35.38863 -15.56599,0 0,35.38863"
        id="path905" />
   </g>
   <g
-     style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded"
-     id="g907"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       d="m 22035,3055 211,0 0,210 -211,0 0,-210 z"
-       id="path909" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g911"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,3265 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path913" />
+     id="g4073"
+     transform="translate(-26.305087,-12.102146)">
     <g
-       style="fill:#000000;stroke:#000000;stroke-width:2296.80566406"
-       id="g915">
-      <line
-         x1="22035"
-         y1="3552"
-         x2="22133"
-         y2="3455"
-         id="line917"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22072"
-         y1="3665"
-         x2="22246"
-         y2="3492"
-         id="line919"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22222"
-         y1="3665"
-         x2="22246"
-         y2="3641"
-         id="line921"
-         style="stroke-width:47.92499924" />
+       transform="translate(0,-42.000006)"
+       id="g3993">
+      <g
+         style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="g907"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <path
+           d="m 22035,3055 211,0 0,210 -211,0 0,-210 z"
+           id="path909" />
+      </g>
+      <path
+         id="path913"
+         d="m 321.97191,68.127294 -2.19092,0 0,-4.381847 4.40271,0 0,4.381847 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
     </g>
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,3665 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path923" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded"
-     id="g925"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       d="m 22035,4197 211,0 0,210 -211,0 0,-210 z"
-       id="path927" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g929"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,4407 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path931" />
     <g
-       style="fill:#000000;stroke:#000000;stroke-width:2296.80566406"
-       id="g933">
-      <line
-         x1="22185"
-         y1="4939"
-         x2="22246"
-         y2="5000"
-         id="line935"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22035"
-         y1="4939"
-         x2="22246"
-         y2="5150"
-         id="line937"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22035"
-         y1="5089"
-         x2="22096"
-         y2="5150"
-         id="line939"
-         style="stroke-width:47.92499924" />
+       transform="translate(0,-23.597587)"
+       id="g3998">
+      <g
+         id="g915"
+         style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <line
+           style="stroke-width:47.92499924"
+           id="line917"
+           y2="3455"
+           x2="22133"
+           y1="3552"
+           x1="22035" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line919"
+           y2="3492"
+           x2="22246"
+           y1="3665"
+           x1="22072" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line921"
+           y2="3641"
+           x2="22246"
+           y1="3665"
+           x1="22222" />
+      </g>
+      <path
+         id="path923"
+         d="m 321.97191,76.47367 -2.19092,0 0,-4.381847 4.40271,0 0,4.381847 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
     </g>
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,5150 -105,0 0,-211 211,0 0,211 -106,0"
-       id="path941" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded"
-     id="g943"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       d="m 22035,5339 211,0 0,210 -211,0 0,-210 z"
-       id="path945" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g947"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,5549 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path949" />
     <g
-       style="fill:#000000;stroke:#000000;stroke-width:2296.80566406"
-       id="g951">
-      <line
-         x1="22035"
-         y1="6161"
-         x2="22246"
-         y2="6161"
-         id="line953"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22035"
-         y1="6267"
-         x2="22246"
-         y2="6267"
-         id="line955"
-         style="stroke-width:47.92499924" />
+       transform="translate(0,-12.331321)"
+       id="g4005">
+      <g
+         style="font-size:281px;font-weight:400;fill:#999999;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="g925"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <path
+           d="m 22035,4197 211,0 0,210 -211,0 0,-210 z"
+           id="path927" />
+      </g>
+      <path
+         id="path931"
+         d="m 321.97191,91.956198 -2.19092,0 0,-4.381848 4.40271,0 0,4.381848 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
     </g>
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,6292 -105,0 0,-211 211,0 0,211 -106,0"
-       id="path957" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:#cccccc;stroke:none;visibility:visible;font-family:Arial embedded"
-     id="g959"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       d="m 22035,7167 211,0 0,210 -211,0 0,-210 z"
-       id="path961" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:47.92499924;visibility:visible;font-family:Arial embedded"
-     id="g963"
-     transform="scale(0.02086594,0.02086594)">
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,7377 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path965" />
     <g
-       style="fill:#000000;stroke:#000000;stroke-width:2296.80566406"
-       id="g967">
-      <line
-         x1="22115"
-         y1="7909"
-         x2="22115"
-         y2="8119"
-         id="line969"
-         style="stroke-width:47.92499924" />
-      <line
-         x1="22221"
-         y1="7909"
-         x2="22221"
-         y2="8119"
-         id="line971"
-         style="stroke-width:47.92499924" />
+       transform="translate(0,-1.0650603)"
+       id="g4010">
+      <g
+         id="g933"
+         style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <line
+           style="stroke-width:47.92499924"
+           id="line935"
+           y2="5000"
+           x2="22246"
+           y1="4939"
+           x1="22185" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line937"
+           y2="5150"
+           x2="22246"
+           y1="4939"
+           x1="22035" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line939"
+           y2="5150"
+           x2="22096"
+           y1="5089"
+           x1="22035" />
+      </g>
+      <path
+         id="path941"
+         d="m 321.97191,107.45959 -2.19092,0 0,-4.40271 4.40271,0 0,4.40271 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
     </g>
-    <path
-       style="fill:none;stroke-width:47.92499924"
-       d="m 22140,8119 -105,0 0,-210 211,0 0,210 -106,0"
-       id="path973" />
-  </g>
-  <g
-     style="font-size:281px;font-weight:400;fill:#000000;stroke:none;visibility:visible;font-family:Arial embedded;fill-opacity:1"
-     id="g975"
-     transform="scale(0.02086594,0.02086594)">
+    <g
+       transform="translate(0,17.358225)"
+       id="g4023">
+      <g
+         style="font-size:281px;font-weight:400;fill:#4c4c4c;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="g943"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <path
+           d="m 22035,5339 211,0 0,210 -211,0 0,-210 z"
+           id="path945" />
+      </g>
+      <path
+         id="path949"
+         d="m 321.97191,115.7851 -2.19092,0 0,-4.38185 4.40271,0 0,4.38185 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
+    </g>
+    <g
+       transform="translate(0,28.624489)"
+       id="g4017">
+      <g
+         id="g951"
+         style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <line
+           style="stroke-width:47.92499924"
+           id="line953"
+           y2="6161"
+           x2="22246"
+           y1="6161"
+           x1="22035" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line955"
+           y2="6267"
+           x2="22246"
+           y1="6267"
+           x1="22035" />
+      </g>
+      <path
+         id="path957"
+         d="m 321.97191,131.28849 -2.19092,0 0,-4.40271 4.40271,0 0,4.40271 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
+    </g>
+    <g
+       transform="translate(0,32.733733)"
+       id="g4028">
+      <g
+         style="font-size:281px;font-weight:400;fill:#cccccc;stroke:none;visibility:visible;font-family:Arial embedded"
+         id="g959"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <path
+           d="m 22035,7167 211,0 0,210 -211,0 0,-210 z"
+           id="path961" />
+      </g>
+      <path
+         id="path965"
+         d="m 321.97191,153.92804 -2.19092,0 0,-4.38185 4.40271,0 0,4.38185 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
+    </g>
+    <g
+       transform="translate(0,44)"
+       id="g4033">
+      <g
+         id="g967"
+         style="font-size:281px;font-weight:400;fill:#000000;stroke:#000000;stroke-width:2296.80566406;visibility:visible;font-family:Arial embedded"
+         transform="matrix(0.02086594,0,0,0.02086594,-140,0)">
+        <line
+           style="stroke-width:47.92499924"
+           id="line969"
+           y2="8119"
+           x2="22115"
+           y1="7909"
+           x1="22115" />
+        <line
+           style="stroke-width:47.92499924"
+           id="line971"
+           y2="8119"
+           x2="22221"
+           y1="7909"
+           x1="22221" />
+      </g>
+      <path
+         id="path973"
+         d="m 321.97191,169.41057 -2.19092,0 0,-4.38185 4.40271,0 0,4.38185 -2.21179,0"
+         style="font-size:281px;font-weight:400;fill:none;stroke:#000000;stroke-width:1.00000012;visibility:visible;font-family:Arial embedded" />
+    </g>
     <text
-       id="text977"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22525 22684 22763 22922 23160 23319 23398 23451 23584 23663 23822 24060 24219 24271 24324 24404 24642 24801 24933 25065 25224 25383 25541 25621 25780 25938 26018 26176 26335 26388 26441 26600 26679 26759 26917 26970 27023 27182 27288"
-         y="3291"
-         id="tspan979"
-         style="fill:#000000;fill-opacity:1">Automatic email/message on build failure</tspan>
-    </text>
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       x="329.68884"
+       y="26.733246"
+       id="text3931"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3933"
+         x="329.68884"
+         y="26.733246"
+         style="font-size:9px">Automatic email/message on build failure</tspan></text>
     <text
-       id="text981"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22552 22684 22843 23001 23240 23293 23425 23504 23610 23769 23928 24086 24324 24483 24642 24721 24854 24933 25092 25171 25330 25462 25541 25621 25727 25885 26124 26203 26282 26415 26547 26706 26864 26944 27103 27208 27367 27499 27632 27685 27843 28002"
-         y="3687"
-         id="tspan983"
-         style="fill:#000000;fill-opacity:1">Dynamic roadmap status from Issue Tracking</tspan>
-    </text>
+       sodipodi:linespacing="125%"
+       id="text3935"
+       y="53.48204"
+       x="327.68884"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         id="tspan4063"
+         style="font-size:9px"
+         y="53.48204"
+         x="327.68884"
+         sodipodi:role="line">Dynamic roadmap status from</tspan><tspan
+         id="tspan4071"
+         style="font-size:9px"
+         y="64.73204"
+         x="327.68884"
+         sodipodi:role="line">Issue Tracking System</tspan></text>
     <text
-       id="text985"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22525 22658 22790 22869 23028"
-         y="4030"
-         id="tspan987"
-         style="fill:#000000;fill-opacity:1">System</tspan>
-    </text>
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       x="327.68884"
+       y="80.230835"
+       id="text3939"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4061"
+         sodipodi:role="line"
+         x="327.68884"
+         y="80.230835"
+         style="font-size:9px">Issue tracking management from</tspan><tspan
+         id="tspan4067"
+         sodipodi:role="line"
+         x="327.68884"
+         y="91.480835"
+         style="font-size:9px">repository commit logs</tspan></text>
     <text
-       id="text989"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22419 22552 22684 22843 23001 23081 23160 23266 23425 23557 23689 23742 23901 24060 24139 24377 24536 24695 24854 25012 25171 25409 25568 25727 25806 25885 25965 26071 26229 26468 26547 26653 26811 26970 27129 27261 27314 27394 27552 27658 27790"
-         y="4423"
-         id="tspan991"
-         style="fill:#000000;fill-opacity:1">Issue tracking management from repository</tspan>
-    </text>
+       sodipodi:linespacing="125%"
+       id="text3943"
+       y="107.00049"
+       x="327.68884"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:9px"
+         y="107.00049"
+         x="327.68884"
+         id="tspan3945"
+         sodipodi:role="line">Collaborative issue priority sorting</tspan></text>
     <text
-       id="text993"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22472 22631 22869 23107 23160 23240 23319 23372 23531 23689"
-         y="4766"
-         id="tspan995"
-         style="fill:#000000;fill-opacity:1">commit logs</tspan>
-    </text>
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       x="327.68884"
+       y="133.74928"
+       id="text3947"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3949"
+         x="327.68884"
+         y="133.74928"
+         style="font-size:9px">Website one-click release build from repository</tspan></text>
     <text
-       id="text997"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22552 22710 22763 22816 22975 23134 23293 23398 23557 23636 23689 23822 23980 24060 24113 24245 24377 24536 24695 24774 24933 25039 25092 25250 25356 25409 25489 25621 25700 25833 25991 26097 26176 26229 26388"
-         y="5161"
-         id="tspan999"
-         style="fill:#000000;fill-opacity:1">Collaborative issue priority sorting</tspan>
-    </text>
+       sodipodi:linespacing="125%"
+       id="text3951"
+       y="160.51894"
+       x="327.68884"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:9px"
+         y="160.51894"
+         x="327.68884"
+         sodipodi:role="line"
+         id="tspan3955">Timeline on website that allows notes/comments</tspan><tspan
+         id="tspan4059"
+         style="font-size:9px"
+         y="171.76894"
+         x="327.68884"
+         sodipodi:role="line">to facilitate retrospective analysis</tspan></text>
     <text
-       id="text1001"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22605 22763 22922 23054 23107 23187 23345 23425 23584 23742 23901 24007 24139 24192 24245 24377 24510 24589 24695 24854 24906 25065 25224 25356 25515 25594 25753 25912 25965 26018 26176 26256 26335 26441 26600 26838"
-         y="5555"
-         id="tspan1003"
-         style="fill:#000000;fill-opacity:1">Website one-click release build from</tspan>
-    </text>
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       x="327.68884"
+       y="187.26773"
+       id="text3957"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan3961"
+         sodipodi:role="line"
+         x="327.68884"
+         y="187.26773"
+         style="font-size:9px">A robot on your communication channel</tspan><tspan
+         id="tspan4057"
+         sodipodi:role="line"
+         x="327.68884"
+         y="198.51773"
+         style="font-size:9px">to keep log of the last events</tspan></text>
     <text
-       id="text1005"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22446 22605 22763 22922 23054 23107 23187 23345 23451"
-         y="5898"
-         id="tspan1007"
-         style="fill:#000000;fill-opacity:1">repository</tspan>
-    </text>
-    <text
-       id="text1009"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22499 22552 22790 22949 23001 23054 23213 23372 23451 23610 23769 23848 24060 24219 24377 24510 24563 24642 24801 24880 24959 25118 25277 25356 25436 25594 25647 25700 25859 26071 26203"
-         y="6320"
-         id="tspan1011"
-         style="fill:#000000;fill-opacity:1">Timeline on website that allows</tspan>
-    </text>
-    <text
-       id="text1013"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22499 22658 22737 22896 23028 23107 23240 23398 23636 23875 24033 24192 24271 24404 24483 24563 24721 24801 24880 25039 25171 25224 25277 25330 25409 25568 25647 25806 25885 25991 26150 26229 26335 26494 26626 26785 26944 27076 27155 27208 27341 27499"
-         y="6662"
-         id="tspan1015"
-         style="fill:#000000;fill-opacity:1">notes/comments to facilitate retrospective</tspan>
-    </text>
-    <text
-       id="text1017"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22499 22658 22816 22869 23001 23134 23187"
-         y="7005"
-         id="tspan1019"
-         style="fill:#000000;fill-opacity:1">analysis</tspan>
-    </text>
-    <text
-       id="text1021"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22499 22578 22684 22843 23001 23160 23240 23319 23478 23636 23716 23848 24007 24166 24271 24351 24483 24642 24880 25118 25277 25436 25489 25621 25780 25859 25912 26071 26229 26309 26441 26600 26759 26917 27076 27235 27288 27367 27446 27605"
-         y="7399"
-         id="tspan1023"
-         style="fill:#000000;fill-opacity:1">A robot on your communication channel to</tspan>
-    </text>
-    <text
-       id="text1025"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22472 22631 22790 22949 23028 23081 23240 23398 23478 23636 23716 23795 23875 24033 24192 24271 24324 24483 24615 24695 24774 24933 25065 25224 25383 25462"
-         y="7742"
-         id="tspan1027"
-         style="fill:#000000;fill-opacity:1">keep log of the last events</tspan>
-    </text>
-    <text
-       id="text1029"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22525 22684 22763 22922 23160 23319 23398 23451 23584 23663 23901 24060 24139 24245 24298 24430 24510 24668 24774 24933 25092 25250 25303 25436 25515 25674 25833 25991 26150 26256 26415 26494 26547 26706 26864 26944 27103 27261 27420"
-         y="8136"
-         id="tspan1031"
-         style="fill:#000000;fill-opacity:1">Automatic metric graphic generation and</tspan>
-    </text>
-    <text
-       id="text1033"
-       style="fill:#000000;fill-opacity:1">
-      <tspan
-         x="22340 22499 22658 22816 22975 23054 23107 23266 23425 23504 23584 23689 23848 24086 24166 24271 24430 24589 24748 24880 24933 25012 25171 25277"
-         y="8479"
-         id="tspan1035"
-         style="fill:#000000;fill-opacity:1">updating from repository</tspan>
-    </text>
+       sodipodi:linespacing="125%"
+       id="text3965"
+       y="214.01653"
+       x="327.68884"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;visibility:visible;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         style="font-size:9px"
+         y="214.01653"
+         x="327.68884"
+         sodipodi:role="line"
+         id="tspan3967">Automatic metric graphic generation</tspan><tspan
+         id="tspan4055"
+         style="font-size:9px"
+         y="225.26653"
+         x="327.68884"
+         sodipodi:role="line">and updating from repository</tspan></text>
   </g>
   <text
      xml:space="preserve"
      style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-     x="93.924789"
-     y="233.3394"
+     x="55.541187"
+     y="227.23726"
      id="text11417"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan11419"
-       x="93.924789"
-       y="233.3394"
+       x="55.541187"
+       y="227.23726"
        style="font-size:8px;text-align:center;text-anchor:middle">Most useful</tspan></text>
   <text
      sodipodi:linespacing="125%"
      id="text12009"
-     y="233.3394"
-     x="234.30273"
+     y="227.23726"
+     x="146.32292"
      style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
      xml:space="preserve"><tspan
        style="font-size:8px;text-align:center;text-anchor:middle"
-       y="233.3394"
-       x="234.30273"
+       y="227.23726"
+       x="146.32292"
        id="tspan12011"
        sodipodi:role="line">2nd most useful</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-     x="374.4502"
-     y="233.3394"
+     x="236.87418"
+     y="227.23726"
      id="text12013"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan12015"
-       x="374.4502"
-       y="233.3394"
+       x="236.87418"
+       y="227.23726"
        style="font-size:8px;text-align:center;text-anchor:middle">3rd most useful</tspan></text>
 </svg>
