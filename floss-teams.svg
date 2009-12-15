@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,11 +43,11 @@
      showgrid="false"
      inkscape:zoom="2.3162317"
      inkscape:cx="185.06287"
-     inkscape:cy="152.09407"
+     inkscape:cy="48.477493"
      inkscape:window-x="4"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg3069" />
+     inkscape:current-layer="g5204" />
   <defs
      id="defs3071">
     <inkscape:perspective
@@ -485,7 +485,7 @@
          y="232.56339"
          x="48.028599"
          id="tspan5151"
-         sodipodi:role="line">0</tspan></text>
+         sodipodi:role="line">1</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -497,7 +497,7 @@
          id="tspan5155"
          x="73.079376"
          y="232.56339"
-         style="font-size:11px">1-5</tspan></text>
+         style="font-size:11px">2-6</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5165"
@@ -509,7 +509,7 @@
          y="232.56339"
          x="100.70844"
          id="tspan5167"
-         sodipodi:role="line">6-10</tspan></text>
+         sodipodi:role="line">7-11</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
@@ -521,7 +521,7 @@
          id="tspan5171"
          x="127.94806"
          y="232.56339"
-         style="font-size:11px">11-50</tspan></text>
+         style="font-size:11px">12-51</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5173"
@@ -533,7 +533,7 @@
          y="232.56339"
          x="162.99185"
          id="tspan5175"
-         sodipodi:role="line">50+</tspan></text>
+         sodipodi:role="line">51+</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5177"
