@@ -4,6 +4,15 @@
 \usepackage{graphicx}
 \usepackage{url}
 
+\newcommand{\footnoteremember}[2]{
+  \footnote{#2}
+  \newcounter{#1}
+  \setcounter{#1}{\value{footnote}}
+}
+\newcommand{\footnoterecall}[1]{
+  \footnotemark[\value{#1}]
+} 
+
 \begin{document}
 
 \mainmatter
@@ -13,15 +22,17 @@
 
 \titlerunning{Open Source and Agile Methods}
 
-\author{Hugo Corbucci\inst{1} and Alfredo Goldman\inst{1}}
+\author{}
+%\author{Hugo Corbucci\inst{1} and Alfredo Goldman\inst{1}}
 
-\authorrunning{Hugo Corbucci et al.}
+%\authorrunning{Hugo Corbucci et al.}
 
-\tocauthor{Hugo Corbucci, Alfredo Goldman}
+%\tocauthor{Hugo Corbucci, Alfredo Goldman}
 
-\institute{Instituto de Matem\'{a}tica e Estat\'{i}stica (IME)\\
-  Universidade de S\~{a}o Paulo (USP) - Brazil\\
-  \email{corbucci@ime.usp.br} and \email{gold@ime.usp.br} }
+\institute{}
+%\institute{Instituto de Matem\'{a}tica e Estat\'{i}stica (IME)\\
+%  Universidade de S\~{a}o Paulo (USP) - Brazil\\
+%  \email{corbucci@ime.usp.br} and \email{gold@ime.usp.br} }
  
 \maketitle
 
@@ -35,53 +46,61 @@
 % TODO Mais abstract
 
   \keywords{agile software development, open source software,
-    distributed agile, }
+    distributed agile, free software, software libre }
 \end{abstract}
 
 \section{Introduction}
 
 Typical Open Source (OS) projects (the scope of of OS project will be
-narrowed according to Section \ref{sec:scope}) usually receive
-the collaboration of many geographically distant people
+narrowed according to Section \ref{sec:scope}) usually receive the
+collaboration of many geographically distant people
 \cite{report:dempsey1999}. At first glance, this argument could
 indicate that such projects are not candidates for the use of agile
 methods since some basic values seem to be missing. In this case, the
 distance and diversity separating developers deteriorates
 communication, a very important value within agile methods. However,
 it is common to identify some principles presented by the agile
-manifesto \cite{url:agilemanifesto} on many open source software
-projects. Being ready for changes, working with continuous feedback,
-delivering real features, respecting collaborators and users and
-facing challenges are expected attitudes from agile developers
-naturally found in the Free and Open Source Software (FOSS)
+manifesto \cite{url:agilemanifesto} on many OS software
+projects. Parts of the manifest such as being ready for changes,
+working with continuous feedback, respecting collaborators and users,
+delivering working features and facing challenges can be naturally
+found in the Free, Libre, Open Source Software (FLOSS)
 communities\cite{gabriel2005}.
 
 During a workshop \cite{conference:oopsla2007} held at OOPSLA 2007
-celebrating 20 years from the publication of ``No Silver Bullets''
-\cite{brooks1987}, agile methods and OS software development were
-mentioned as two failed silver bullets having both brought great
-benefit to the software community. During the same workshop the
-question was raised whether the use of several failed silver bullets
-simultaneously could not raise production levels by an order of
-magnitude. This work is an attempt to suggest one of those merges to
-partially tackle software development problems.
+celebrating 20 years from the publication of ``No Silver
+Bullets''\cite{brooks1987}, agile methods and OS software development
+were mentioned as two failed silver bullets having both brought great
+benefits to the software community. During that workshop, someone
+asked if the use of several failed silver bullets simultaneously could
+not raise production levels by an order of magnitude. This work
+analyses parts of those environments to observe if a merging between
+them could have benefical effects to software development.
 
-% TODO Write the agenda
+This work is structured as follows. Section \ref{sec:scope} defines
+what is meant by FLOSS and agile methods in this paper. Section
+\ref{sec:relation} shows where agile methods and FLOSS development are
+close to each other and where they diverge. Section \ref{sec:surveys}
+presents two surveys elaborated to try to identify communication
+issues and possible tools to minimize the problems of each
+community. Section \ref{sec:results} presents the results of the
+survey while Section \ref{sec:conclusion} concludes and provides
+suggestions for future works.
 
 \section{Scopes}
 \label{sec:scope}
 
-The FOSS environment as well as the agile both comprehend such a wide
+The FLOSS environment as well as the agile both comprehend such a wide
 variety of projects, people and contexts that it is very hard to cover
 all of them. Therefore it is necessary to first define which part of
 each community will be analysed in this work.
 \\
 
-Throughout this work, any software engineering method that follows the
-principles of the agile manifesto \cite{url:agilemanifesto} will be
-considered and treated as an agile method. Focus will be given on the
-most known methods, such as eXtreme Programming (XP) \cite{XP2002},
-Scrum \cite{schwaber2004} and the Crystal family
+In this work, we will thread any software engineering method that
+follows the principles of the agile manifesto
+\cite{url:agilemanifesto} as an agile method. However the text will be
+guided by the most known methods such as eXtreme Programming
+\cite{XP2002}, Scrum \cite{schwaber2004} and the Crystal family
 \cite{cockburn2002}. Closely related ideas will also be mentioned from
 the wider Lean philosophy \cite{ohno1998} and its application to
 software development \cite{poppendieck2005}.
@@ -89,11 +108,10 @@ software development \cite{poppendieck2005}.
 
 The terms ``open source software'' and ``free software'' will be
 considered the same in this work although they have some differences
-in their specific contexts \cite[Ch. 1, Free Versus Open
-source]{fogel2005}. Projects will be called to be open source (or
-free) if their source code is available and modifiable by anyone with
-the required technical knowledge, without prior consent from the
-original author and without any charge.
+in their specific contexts \cite{fogel2005}. Projects will be said to
+be open source (or free) if their source code is available and
+modifiable by anyone with the required technical knowledge, without
+prior consent from the original author and without any charge.
 
 OS projects essentially controlled by a single company fall out of the
 scope of this work. The reason for such reduction of scope is that
@@ -105,7 +123,7 @@ enforced to the employees of this company.
 Considering this scope, it is important to characterize the people
 involved in such kind of projects. In 2002, the FLOSS Project
 \cite{url:flossproject} published a report about a survey they
-conducted regarding FOSS contributors. Their collected data
+conducted regarding FLOSS contributors. Their collected data
 \cite{url:flossdata} shows that 78.77\% of the contributors are
 employed or self-employed (question 42) and that only 50.82\% of the
 OS community are software developers while 24.76\% do not earn their
@@ -123,7 +141,7 @@ Another survey \cite{reis2003} points out that 74\% of open source
 projects have teams with up to 5 people and 62\% of the contributors
 work with each other over the Internet and have never met physically.
 
-Considering such characterization of the FOSS community, the next
+Considering such characterization of the FLOSS community, the next
 section presents what is the relation between such development
 environment with the ideas and guidelines of agile methodologies.
 
@@ -131,35 +149,35 @@ environment with the ideas and guidelines of agile methodologies.
 \label{sec:relation}
 
 In Martin Fowler's first version of ``The New Methodology''
-\cite{url:fowler2000orig}, he included open source software
-development as part of the new methodology of software development
-along with now well known Agile methods. He decided to remove it from
-the final article because the FOSS environment is so big and spread
-that any attempt to characterize the development process would
-undoubtedly fail on a given environment.
+\cite{url:fowler2000orig}, he included OSS development as part of the
+new methodology of software development along with now well known
+agile methods. He decided to remove it from the final article because
+the FLOSS environment is so big and spread that any attempt to
+characterize the development process would undoubtedly fail on a given
+environment.
 
 Afterwards, in 2002, Warsta \cite{warsta2002} published a review about
-agile software development methods including and discussing OSS as an
-agile method.  However, he stresses that FOSS development is not a
+agile software development methods including and discussing FLOSS as
+an agile method.  However, he stresses that FLOSS development is not a
 precise method and evolves differently for each project. Indeed, Eric
 Raymond's description of the development process from ``The Cathedral
 and the Bazaar'' \cite{raymond1999} is closer to an experience report
 than to the description of a process with guidelines and
 practices. Nevertheless, Raymond's text presents several actions that
 could be related to the agile manifesto \cite{url:agilemanifesto} and
-are common in other FOSS projects.
+are common in other FLOSS projects.
 
-FOSS communities are, by definition, a group of people gathered around
-a FOSS project. A working and useful software project attracts
-individuals to collaborate to evolve the
+FLOSS communities are, by definition, a group of people gathered
+around a FLOSS project. A working and useful software project attracts
+individuals to collaborate and evolve the
 software\cite{crowston2002}. It is the people's interactions that will
 define the development process, tools and even the goals of the
-software. FOSS projects that do not evolve to fit the needs of its
+software. FLOSS projects that do not evolve to fit the needs of its
 community are abandoned in a highly competitive environment where the
 best (in certain criteria) gains adopters in a thin line between
 success and oblivion.
 
-From such aspects, FOSS project share a lot in common with the values
+From such aspects, FLOSS projects share a lot with the values
 presented by agile methods. The practices are also quite similar. Eric
 Raymond quotes Linus Torvalds about two specific development policy
 for the Linux Kernel.
@@ -184,7 +202,7 @@ quite different.
 
 Open source software is stronger when it comes to products that
 ``scratch a developer's itch'' \cite{fitzgerald2000}, i.e. a product
-in which the own developer can be the user. Such product evolve across
+in which the developer can be the user. Such product evolves across
 the Internet gathering volunteers interested in such development by
 releasing versions of the software frequently.
 
@@ -205,22 +223,17 @@ there be a way to unite the strength of both communities and improve
 development in distributed environments with changing requirements?
 
 In order to evaluate this possibility, we decided to elaborate two
-surveys. The next section describes how the surveys were elaborated
-and what information were expected to be collected.
+surveys that will be described in the next section.
 
 \section{Surveys}
 \label{sec:surveys}
 
-Since the motivation to write was to understand if the agile community
-and the FOSS community could share more principles and practices, one
-survey was directed to agile practitioners while the other was aimed to
-FOSS contributors.  Each survey intended to characterize the answering
-public, was available on the Internet and was spread in channels
-common to the target communities.
-
-The next subsection presents the survey created for the FLOSS
-community while the following one shows the one aimed to the agile
-community.
+Since the motivation to build those surveys was to understand if the
+agile and the FLOSS community could share more principles and
+practices, one survey was directed to each community.  Each survey
+intended to characterize the answering public, was available on the
+Internet and spread in common channels to the target communities. The
+following subsections present both surveys.
 
 \subsection{To the FLOSS community}
 \label{subsec:floss-survey}
@@ -231,62 +244,59 @@ their community. Therefore, the first set of questions were pretty
 similar between both surveys and inquired the participants about their
 year of birth and country of residence. Both surveys also tried to
 evaluate the experience of the participants in their community. For
-the FLOSS community that translated to the amount of project with
-which the participant had contributed with as well the first year of
-contribution.
+the FLOSS community that translated to how many projects the
+participant had contributed with and when did the first contribution
+happened.
 
-This last question as well as the following ones were only displayed
-if the participant had contributed to at least one FLOSS project since
-most questions would be meaningless otherwise. In order to narrow the
+This last question and the following ones were only displayed if the
+participant had contributed to at least one FLOSS project since most
+questions would be meaningless otherwise. In order to narrow the
 environment that the participants would have to evaluate as well as
 their experience in such project, they were asked the name of the main
-project as well as their role in the project.
+project and their role in it.
 
-To understand how the project ensure communication between its
+To understand how the project ensures communication between its
 collaborators, the participants were asked how big was the project
 team and, if there was a team (not a single person team) what was the
 communication channel used to communicate among them. The survey also
-asked the participant to evaluate the quality of the communication
-through that channel. The survey also included a similar question
-regarding the communication channel with the users of project and its
-evaluated quality.
+asked the participant to evaluate the quality of communication through
+that channel. The survey also included a similar question regarding
+the communication channel with the users of project and its evaluated
+quality.
 
-At last, the survey inquired the participants about which of 8 tools
-did the project already used and how they would classify the
+At last, the survey inquired the participants about which of eight
+tools did the project already used and how they would classify the
 usefulness of those tools to mitigate their problem with the project's
 development.
 
 A paper version of the survey can be found in Appendix
-\ref{appendix:a}\footnote{The online address of the survey was omitted
-  according to the submission rules}.
+\ref{appendix:a}.\footnoteremember{onlineoff}{The online address of
+  the survey was omitted according to the submission rules}
 % while the online version can be accessed at {\tt
 %   http://www.ime.usp.br/~corbucci/floss-survey}.
+
 The survey was announced via twitter\footnote{http://twitter.com} by
 the authors and received the support of
 GitHub\footnote{http://github.com} who asked their users to fill in
-the survey.
-
-The survey was also sent to other FLOSS project hosting systems such
-as SourceForge.net, LaunchPad.net, CodeHaus, Google Code but none
-answered the request or provided any sort of answers.  It was also
-published in a few blogs related to the FLOSS community and mailing
-lists for the Python community as well other international mailing
-lists.
+the survey.  The survey was also sent to other FLOSS project hosting
+systems such as SourceForge.net, LaunchPad.net, CodeHaus, Google Code
+but none answered the request or provided any sort of answers. It was
+also published in a few blogs related to the FLOSS community and some
+international mailing lists.
 
 \subsection{To the Agile community}
 \label{subsec:agile-survey}
 
-The beginning of the survey directed to the Agile community was very
+The beginning of the survey directed to the agile community was very
 similar to the one to the FLOSS community since its goal was to
-collect data to characterize the participants.  After the first
-questions regarding the residence country and the year of bird, the
-agile survey inquired the participants about their agile experience
-asking on how many agile projects they participated in and when was
-their first agile project.
+characterize the participants.  After the first questions regarding
+the country of residence and the year of birth, the agile survey
+inquired the participants about how many agile projects they
+participated in and when was their first agile project.
 
 Similarly to the FLOSS survey, this last question as well as the
 following were only displayed to participants that had been in at
-least one of agile project. The survey kept on asking about the
+least one agile project. The survey kept on asking about the
 participant's main role in the project and the size of the team
 involved. The participant was then asked to inform the main
 communication channel used to communicate with the client of that
@@ -298,20 +308,21 @@ methods in a distributed environment. If so, the participant was asked
 to describe the communication channel used in this distributed project
 and its quality.
 
-The participants were then asked to sort the 3 most critical problems
-encountered in the agile environment in which they
-participated. Afterwards the participant should sort the top 3 tools
-(out of 8) that would help in a distributed agile environment.
+The participants were then asked to sort the three most critical
+problems encountered in the agile environment in which they
+participated. Afterwards the participant should sort the top three
+tools (out of eight) that would help in a distributed agile
+environment.
 
 Finally, the participants were asked if they were FLOSS contributors
 and, if so, how agile they considered their FLOSS project and how
 would they sort the problems and tools in that FLOSS environment.
 
 The paper version of this version can be found in Appendix
-\ref{appendix:b}\footnote{The online address of the survey was omitted
-  according to the submission rules}
+\ref{appendix:b}.\footnoterecall{onlineoff}
 % while the online version can be found at {\tt
 %   http://www.ime.usp.br/~corbucci/agile-survey}.
+
 This survey was announced in mailing lists related to the subject as
 well as blogs and twitter by various supporters. The authors also
 sought the support from the Agile Alliance but no answer was provided.
@@ -319,19 +330,14 @@ sought the support from the Agile Alliance but no answer was provided.
 \section{Survey results}
 \label{sec:results}
 
-The surveys were ellaborated to be answered by the participants
-through the Internet and used some dynamic contents to minimize the
-amount of answers each participants should provide. Such work was
-performed through Javascript but was not validated against older
-browsers such as Internet Explorer 6 and 7. Trying to answer the
-surveys using those browsers resulted in an invalid answer. This
-unexpected error provided an extra information regarding the browser
-used by each community.
-
-The individual results of each survey provide interesting data by
-themselves and are described in subsections \ref{subsec:floss-results}
-and \ref{subsec:agile-results} for the FLOSS survey and the agile one
-respectively.
+The surveys were elaborated to be answered by the participants through
+the Internet and used some dynamic contents to minimize the amount of
+answers each participants should provide. Such work was performed
+through Javascript but was not validated against older browsers such
+as Internet Explorer 6 and 7. Trying to answer the surveys using those
+browsers resulted in an invalid answer. This unexpected error provided
+an extra information regarding the browser used by each community. The
+following subsections analyse the data of each survey.
 
 \subsection{Individual results from the FLOSS community}
 \label{subsec:floss-results}
@@ -339,13 +345,13 @@ respectively.
 The results for the FLOSS survey were collected between 2009/07/28 and
 2009/11/01. The survey received 309 entries from which 3 were
 duplicated data (same IP address and time entry) while 4 others were
-invalid answers (caused by Javascript errors). This unexpected data
-shows that approximately 1\% of people who are connected with FLOSS
-communities use a browser not compatible with the standards.
+invalid (caused by Javascript errors). This data
+shows that about 1\% of people who are connected with FLOSS
+communities use browsers incompatible with the standards.
 
 Out of those 302 valid entries, 122 were answers in which the
-participant never contributed to a FLOSS project but considered
-herself as part of the FLOSS community. So only about 60\% of the
+participant never contributed to a FLOSS project but felt as part of
+the FLOSS community. Such attitude shows that only about 60\% of the
 FLOSS community actually contributes with projects.
 
 \begin{figure}[htb]
@@ -365,8 +371,12 @@ The analysis was performed over the 180 answers left since they
 provided more interesting data. Figure \ref{fig:floss-world}
 represents the distribution of the answers around the globe. Figure
 \ref{fig:floss-income} shows the main income origin of the
-participants. The average age of the participants was 28 years old and
-the average year of for the first FLOSS contribution was 2003. Figure
+participants. It is interesting to notice that those data do not
+divert that much from the results collected from the FLOSS world
+project mentioned previously.
+
+The average age of the participants was 28 years old and the average
+year of for the first FLOSS contribution was 2003. Figure
 \ref{fig:floss-firstxp} shows that younger participants started
 contributing earlier in their life than older participants which can
 be explained by the increasing ease to get in touch with a computer in
@@ -409,16 +419,21 @@ little since the FLOSS world research or Reis' one. The main
 communication channels with the rest of the team are still mailing
 lists (27\%) and Internet Relay Chat (IRC - 23\%). However the amount
 of people using face to face communication within the team shows some
-increase (now at 15\%). The quality of the communication in those
-channels was fairly similar. Mailing lists were evaluated to be 44\%
-effective against 52\% for IRC channels and 49\% for face to face.
+increase (now at 15\%).
+
+The evaluated quality of communication in those channels was fairly
+similar. Mailing lists were evaluated to be 44\% effective against
+52\% for IRC channels and 49\% for face to face. It seems with the
+growing adoption of fast feedback channels over the Internet, mailing
+lists are showing signs of weakness comparing to higher bandwidth
+channels.
 
 When it comes to communication with the users, mailing lists were the
-most used (32\%) followed by the website (18\%) and IRC channels,
-emails and issue trackers (11\% each). When it comes to quality of
-communication in such channels, IRC channels scores again once again
-with 49\% effectiveness against 44\% for mailing lists, 37\% for
-websites, 33\% for issue tracker and mere 23\% for emails.
+most used (32\%) followed by websites (18\%) and IRC channels, emails
+and issue trackers (11\% each). When it comes to quality of
+communication in such channels, IRC channels scores once again with
+49\% effectiveness against 44\% for mailing lists, 37\% for websites,
+33\% for issue tracker and mere 23\% for emails.
 
 For both environments, other communication channels were omitted since
 there were too few answers to show any significant data.
@@ -433,8 +448,8 @@ there were too few answers to show any significant data.
 Figure \ref{fig:floss-tools} shows the top three choices of most
 useful tools within a FLOSS project. Automatic email/message on build
 failure was considered the most useful tool by large followed by a
-dynamic roadmap status from the issue tracking management system and
-issue tracking management from repository commit logs.
+dynamic roadmap status from the issue tracking system and issue
+tracking management from repository commit logs.
 
 \begin{figure}[hbt]
   \centering
@@ -445,12 +460,12 @@ issue tracking management from repository commit logs.
 
 Figure \ref{fig:floss-existingtools} shows that a reasonable amount of
 project already have automatic email/message on build failure and
-issue tracking management from repository commit logs.
-
-However, we should be aware that Github features an issue tracking
-management from repository commits while many other forges don't. And
-since Github officially announced the survey, it is probable that many
-of their users answered the survey.
+issue track management from repository commit logs.  However, we
+should be aware that Github features an issue tracking management from
+repository commits while many other forges don't. And since Github
+officially announced the survey, it is probable that many of their
+users answered the survey. Therefore the sample could be biased in
+such sense.
 
 \subsection{Individual results from the Agile community}
 \label{subsec:agile-results}
@@ -459,19 +474,19 @@ The results for the survey directed to the agile community were
 collected between 2009/10/01 and 2009/12/01. It received 204 answers
 from which 9 were duplicate entries and 34 were invalid due to the use
 of incompatible browsers. Such data shows us that about 18\% of the
-participants still use browsers incompatible with Javascript
+agile community still use browsers incompatible with Javascript
 standards. Sensibly more people than in the FLOSS community.
 
 Out of those 161 valid answers, only 28 were from people that never
-actually participated in an agile project but considered themselves
-as agile practitioners. Another fairly different result from the FLOSS
+actually participated in an agile project but considered themselves as
+agile practitioners. Another fairly different result from the FLOSS
 community. The agile community seems to value ``hands on'' experience
 much more than the FLOSS community.
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.5\linewidth}
     \includegraphics[scale=0.5]{agile-world.pdf}
-    \caption{Answers by region of the world}
+    \caption{Answers to the agile survey by region of the world}
     \label{fig:agile-world}
   \end{minipage}
   \begin{minipage}[t]{0.5\linewidth}
@@ -483,16 +498,17 @@ much more than the FLOSS community.
 
 However it is not a very deep experience since 51\% of the
 participants were involved in at most 2 agile projects and only 23\%
-had more than 5 agile projects experience. For the rest of the
+had more than 5 agile projects experience.  For the rest of the
 analysis, participants without any agile experience will not be
 counted since they provide little useful data.
 
-For those who had some experience, most still only had a very recent
-contact with agile projects. Figure \ref{fig:agile-distributed} shows
-that the first experience with agile for most participants only
-happened after 2006. We can also see that there is a fairly regular
-amount of people with distributed agile experience regardless of the
-year of first agile experience.
+Most participants with some experience only had a very recent contact
+with agile projects. Figure \ref{fig:agile-distributed} shows that the
+first experience with agile for most participants only happened after
+2006. We can also see that there is a fairly regular amount of people
+with distributed agile experience regardless of the year of first
+agile experience which suggests there has not been a major increase on
+distributed agile projects.
 
 \begin{figure}[htb]
   \begin{minipage}[t]{0.55\linewidth}
@@ -512,23 +528,17 @@ year of first agile experience.
 
 Figure \ref{fig:agile-roles} shows that most participants considered
 themselves programmers which contrasts with the variety of roles
-accumulated in the FLOSS community. Such indication can be justified
-by the low hierarchy suggested by some agile books.
+accumulated in the FLOSS survey. Such indication can be justified by
+the low hierarchy suggested by some agile books.
 % TODO Ref
 
 When it comes to team sizes, smaller teams are obviously
-preferred. Figure \ref{fig:agile-teams} shows the distribution of
-average team sizes reported by the participants. From such results, it
-is clear that a large majority of agile projects involve small teams.
-
-\begin{figure}[htb]
-  \begin{minipage}[t]{0.55\linewidth}
-    \centering
-    \includegraphics[scale=.3]{agile-teams.pdf}
-    \caption{Average agile team sizes}
-    \label{fig:agile-teams}
-  \end{minipage}
-\end{figure}
+preferred. 37\% of the participants reported to work with an average
+team size between 1 and 5 people. 46\% reported to have teams from 6
+to 10 people, 13\% worked with 11 to 20 people and only 4\% reported
+to work on teams with more than 20 people. Such data shows that agile
+teams are clearly smaller teams still following the original
+suggestions.
 
 About 70\% of those teams have face to face communication with their
 clients and evaluate the quality of such communication around
@@ -542,7 +552,8 @@ consensus regarding the best communication channel within the
 team. There is no clearly most used communication channel nor a
 clearly most effective one. However, there is a clearly less effective
 one. Emails share a reasonable part of the experiences but are rated
-around 31\% effective to communicate between distributed teams.
+around 31\% effective to communicate between distributed teams which
+ranks way below most reported channels.
 
 The ineffectiveness of those communication channel can explain why
 56\% of the participants stated that ``discovering what the
@@ -553,7 +564,7 @@ is the next task to be done''.
 
 \begin{figure}[hbt]
   \centering
-  \includegraphics[scale=.9]{agile-tools.pdf}
+  \includegraphics[scale=.8]{agile-tools.pdf}
   \caption{Most useful tools to agile practitioners}
   \label{fig:agile-tools}
 \end{figure}
@@ -579,9 +590,9 @@ closely related but share common problems and views to solve those
 problems. It seems, however, that the most severe issues are not
 directly addressed with the suggested tools.
 
-\subsubsection*{Acknowledgments.}
+%\subsubsection*{Ackowledgments.}
 
-This work was supported by the QualiPSo project \cite{url:qualipso}.
+%This work was supported by the QualiPSo project \cite{url:qualipso}.
 
 \begin{thebibliography}{5}
 
@@ -618,7 +629,7 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
 \bibitem{poppendieck2005} Mary Poppendieck and Tom Poppendieck:
   Introduction to Lean Software Development (2005)
 
-\bibitem{url:fowler2000orig} Martin Fowler: The New Methodology,\\
+\bibitem{url:fowler2000orig} Martin Fowler: The New Methodology,
   http://martinfowler.com/articles/newMethodologyOriginal.html
 
 \bibitem{fogel2005} Karl Fogel: Producing Open Source Software (2005)
@@ -691,8 +702,8 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
   % \bibitem{benkler2006} Yochai Benkler: The Wealth of Networks: How
   %   Social Production Transforms Markets and Freedom (2006)
 
-\bibitem{url:qualipso} Qualipso | Trust and Quality in Open Source
-  systems, http://www.qualipso.org/
+%\bibitem{url:qualipso} Qualipso | Trust and Quality in Open Source
+%  systems, http://www.qualipso.org/
 \end{thebibliography}
 
 \appendix
@@ -701,22 +712,21 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
 
 \begin{enumerate}
 \item What country do you live in? \verb=_________________=
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What year where you born? \verb=______= \vspace{10pt}
+\item What year where you born? \verb=______= \vspace{8pt}
 
 \item How many FLOSS projects have you already contributed with?
 
   \verb=( ) 0 ( ) 1 ( ) 2 ( ) 3 ( ) 4 ( ) 5-10 ( ) 11-50 ( ) 51+=
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What is the name of the FLOSS project you mostly contribute (or
-  contributed) with? \verb= ______________= \vspace{10pt}
+\item What is the FLOSS project you mostly contribute/contributed with? \verb= ______________= \vspace{0pt}
 
 \item In which year was your first contribution to that project?
-  \verb=______= \vspace{10pt}
+  \verb=______= \vspace{8pt}
 
-\item What is (or was) your main role in that project?
+\item What is/was your main role in that project?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
     \item[( ) ] Maintainer
@@ -731,24 +741,24 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] Other: \verb=_________________=
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item Do (Did) you receive any income from your FLOSS contributions?
-  \verb=( ) Yes ( ) No= \vspace{10pt}
+\item Do/Did you receive any income from your FLOSS contributions?
+  \verb=( ) Yes ( ) No= \vspace{0pt}
 
-\item If you do (did), is (was) this your main income?
-  \verb=( ) Yes ( ) No= \vspace{10pt}
+\item If you do/did, is/was this your main income?
+  \verb=( ) Yes ( ) No= \vspace{8pt}
 
-\item If you do (did) not receive any income from your contributions
-  or if those contributions were not your main income), is (was) your
-  main income related to IT?  \verb=( ) Yes ( ) No= \vspace{10pt}
+\item If you answered no to the previous question or the one before,
+  is/was your main income related to IT?  \verb=( ) Yes ( ) No=
+  \vspace{8pt}
 
 \item How many people work (or worked) with you on your main FLOSS
   project?  \verb=( ) 0 ( ) 1-5 ( ) 6-10 ( ) 11-50 ( ) 51+=
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What is (or was) your main communication channel with your team
-  of that FLOSS project?
+\item What is/was the main communication channel with the team of that
+  project?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
     \item[( ) ] Face to face
@@ -765,16 +775,16 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] Other: \verb=_____________=
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item How would you evaluate the quality of your communication with
   that team?
 
   Extremely poor \verb=---------------------------------------=
-  Perfect \vspace{10pt}
+  Perfect \vspace{8pt}
 
-\item What is (or was) your main communication channel with the users
-  of that FLOSS project?
+\item What is/was the main communication channel with the users of
+  that project?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
     \item[( ) ] Face to face
@@ -791,22 +801,21 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] Other: \verb=_____________=
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item How would you evaluate the quality of your communication with
   the users?
 
   Extremely poor \verb=---------------------------------------=
-  Perfect \vspace{10pt}
+  Perfect \vspace{8pt}
 
-\item How much effort do (or did) you spend to keep the project's
-  information updated?
+\item How much effort do/did you spend to keep project's information
+  updated?
 
   Very little \verb=---------------------------------------= Huge
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item Which of the following tools does (or did) your project already
-  use?
+\item Which of the following tools does/did your project already use?
   \begin{itemize}
   \item[[ ] ] Automatic email/message on build failure
   \item[[ ] ] Dynamic roadmap status from Issue Tracking System
@@ -820,7 +829,7 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
   \item[[ ] ] A robot on your communication channel to keep log of the
     last events
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item Sort the tools from the most useful (first) to the less useful
   (last).
@@ -844,19 +853,19 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
 
 \begin{enumerate}
 \item What country do you live in? \verb=_________________=
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What year where you born? \verb=______= \vspace{10pt}
+\item What year where you born? \verb=______= \vspace{8pt}
 
 \item How many projects you would consider agile have you been on?
 
   \verb=( ) 0 ( ) 1 ( ) 2 ( ) 3 ( ) 4 ( ) 5-10 ( ) 11-50 ( ) 51+=
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item In which year was the first Agile project you participated?
-  \verb=______= \vspace{10pt}
+  \verb=______= \vspace{8pt}
 
-\item What is (or was) your main role in that project?
+\item What is/was your main role in that project?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
     \item[( ) ] Project manager
@@ -871,14 +880,14 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] Other: \verb=_________________=
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What is (or was) the average number of people in the agile
+\item What is/was the average number of people in the agile
   projects you worked?
   \verb=( ) 1-5 ( ) 6-10 ( ) 11-20 ( ) 21-50 ( ) 51-100 ( )100+=
-  \vspace{10pt}
+  \vspace{8pt}
 
-\item What is (or was) your main communication channel with the
+\item What is/was your main communication channel with the
   clients of that project?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
@@ -897,18 +906,18 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] None
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item How would you evaluate the quality of your communication with
   the clients?
 
   Extremely poor \verb=---------------------------------------=
-  Perfect \vspace{10pt}
+  Perfect \vspace{8pt}
 
 \item Have you ever been on a distributed agile project?
-  \verb=( ) Yes ( ) No= \vspace{10pt}
+  \verb=( ) Yes ( ) No= \vspace{8pt}
 
-\item If yes, what is (or was) your main communication channel within
+\item What is/was the main communication channel within
   that distributed team?
   \begin{itemize}
     \begin{minipage}[t]{0.5\linewidth}
@@ -927,13 +936,13 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
     \item[( ) ] None
     \end{minipage}
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item If you had distributed agile experience, how would you evaluate
   the quality of your communication with that team?
 
   Extremely poor \verb=---------------------------------------=
-  Perfect \vspace{10pt}
+  Perfect \vspace{8pt}
 
 \item For some of the common problems encountered by agile teams
   listed below, sort the 3 most critical problems in the agile
@@ -951,7 +960,7 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
   \item[[ ] ] Synchronize with other collaborators to achieve a common
     goal
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item Sort the 3 tools that would most help you in a distributed agile
   environment.
@@ -968,15 +977,15 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
   \item[[ ] ] A robot on your communication channel to keep log of the
     last events
   \end{itemize}
-\vspace{10pt}
+\vspace{8pt}
 
 \item Have you ever contributed to Free, Libre, Open Source Software
-  (FLOSS)?  \verb=( ) Yes ( ) No= \vspace{10pt}
+  (FLOSS)?  \verb=( ) Yes ( ) No= \vspace{8pt}
 
 \item How would you evaluate the agile level of your FLOSS project?
 
   Anti agile \verb=---------------------------------------= Very agile
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item For some of the common problems encountered by agile teams
   listed below, sort the 3 most critical problems in the FLOSS
@@ -994,7 +1003,7 @@ This work was supported by the QualiPSo project \cite{url:qualipso}.
   \item[[ ] ] Synchronize with other collaborators to achieve a common
     goal
   \end{itemize}
-  \vspace{10pt}
+  \vspace{8pt}
 
 \item Sort the 3 tools that would most help you in that FLOSS
   environment.
